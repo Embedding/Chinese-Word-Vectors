@@ -20,6 +20,8 @@ Mixed-large | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](
 
 ### Chinese word vectors pre-trained by popular toolkits (with default hyper-parameters)
 We also provide the pre-trained word vectors 
+
+
 Corpora/models | word2vec | fastText | GloVe | ngram2vec
 ----|----|----|----|----
 Baidu encyclopedia 百度百科 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
