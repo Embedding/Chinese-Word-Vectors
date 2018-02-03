@@ -1,5 +1,5 @@
 # Chinese-Word-Vectors 中文词向量
-We provide Chinese word vectors trained by different representations (dense and sparse), context features (word, ngram, and character), and corpus. One can easily reproduce the results reported in the paper by downloading the trained vectors and evaluation sripts. 
+We provide Chinese word vectors trained by different **representations** (dense and sparse), **context features** (word, ngram, and character), and **corpus**. One can easily reproduce the results reported in the paper by downloading the trained vectors and evaluation sripts. 
 
 ### Representations
 Existing word representations methods fall into one of the two classes, **dense** and **sparse** represnetations. Word2vec and PPMI are respectively typical methods of these two classes. Word2vec trains low-dimensional real (dense) vectors through shallow neural network. It is also often called neural embedding method. PPMI is a sparse bag-of-features representation weighted by positive-pointwise-mutual-information (PPMI) weighting scheme.
@@ -11,7 +11,7 @@ Three context features: **word**, **ngram**, and **character** are considered in
 
 ### Pre-trained Chinese word vectors  
 
-Corpus/model-feature | word2vec-word | word2vec-ngram | word2vec-character | PPMI-word | PPMI-ngram | PPMI-character
+Corpus/representations-feature | word2vec-word | word2vec-ngram | word2vec-character | PPMI-word | PPMI-ngram | PPMI-character
 ----|----|----|----|----|----|----
 Baidu encyclopedia 百度百科 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 Wikipedia 维基百科 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
@@ -23,6 +23,6 @@ Mixed-small | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](
 Mixed-large | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 
 ### Toolkits and training protocols
-The word2vec-word is implemented by [word2vec](https://github.com/svn2github/word2vec) toolikit. The word2vec-character is implemented by [fasttext](https://github.com/facebookresearch/fastText) toolkit. The rest are implemented by [ngram2vec](https://github.com/zhezhaoa/ngram2vec/) toolkit.
+The **word2vec-word** is implemented by [word2vec](https://github.com/svn2github/word2vec) toolikit. The **word2vec-character** is implemented by [fasttext](https://github.com/facebookresearch/fastText) toolkit. The rest are implemented by [ngram2vec](https://github.com/zhezhaoa/ngram2vec/) toolkit.
 
 The detailed training protocol is as follows: the size of dynamic window is set to 5; the dimension is 300; high-frequency words are filtered with sub-sampling at 1e-5 and low-frequency words are removed with threshold at 5. For word2vec model, we use skip-gram with negative sampling. For both word2vec and PPMI, context distribution smoothing (cds) is set to 0.75. 
