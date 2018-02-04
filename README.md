@@ -12,12 +12,12 @@ we made great efforts to collect corpus in various domains. Their detailed infor
 
 Corpus | size | Description 
 ----|----|----
-baidu_baike|4.3G|Chinese Baike data from https://baike.baidu.com/
-wikipedia_zh|1.2G|Chinese wikipedia data from https://dumps.wikimedia.org/
-People's Daily News|3.9G|News data from People's Daily(1946-2017) http://data.people.com.cn/
-zhihu_QA|3.6G|Chinese QA data from https://www.zhihu.com/ including 32137 questions and 3239114 answers
-literature|0.9G|8599 modern Chinese literature works
-Sogou news|3.7G|News data provided by Sougou labs http://www.sogou.com/labs/
+baidu_baike 百度百科|4.3G|Chinese Baike data from https://baike.baidu.com/
+wikipedia_zh 中文维基百科|1.2G|Chinese wikipedia data from https://dumps.wikimedia.org/
+People's Daily News 人民日报|3.9G|News data from People's Daily(1946-2017) http://data.people.com.cn/
+zhihu_QA 知乎问答|3.6G|Chinese QA data from https://www.zhihu.com/ including 32137 questions and 3239114 answers
+literature 文学作品|0.9G|8599 modern Chinese literature works
+Sogou news 搜狗新闻|3.7G|News data provided by Sougou labs http://www.sogou.com/labs/
 mixed-large|17.6G|We create the large corpus by adding the above corpus together
 mixed-small|4.3G|Sampled from the mixed-large dataset
 
