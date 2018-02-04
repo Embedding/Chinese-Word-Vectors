@@ -1,5 +1,5 @@
 # Chinese-Word-Vectors 中文词向量
-We provide Chinese word vectors trained by different **representations** (dense and sparse), **context features** (word, ngram, and character), and **corpus**. One can easily reproduce the results reported in the paper by downloading the trained vectors, analogical reasoning datasets, and evaluation sripts. 
+We provide Chinese word vectors trained by different **representations** (dense and sparse), **context features** (word, ngram, and character), and **corpora**. One can easily reproduce the results reported in the paper by downloading the trained vectors, analogical reasoning datasets, and evaluation scripts. 
 
 ### Representations
 Existing word representations methods fall into one of the two classes, **dense** and **sparse** represnetations. Word2vec and PPMI are respectively typical methods of these two classes. Word2vec trains low-dimensional real (dense) vectors through shallow neural network. It is also often called neural embedding method. PPMI is a sparse bag-of-features representation weighted by positive-pointwise-mutual-information (PPMI) weighting scheme.
@@ -15,10 +15,10 @@ Corpus | size | Description
 baidu_baike 百度百科|4.3G|Chinese Baike data from https://baike.baidu.com/
 wikipedia_zh 中文维基百科|1.2G|Chinese wikipedia data from https://dumps.wikimedia.org/
 People's Daily News 人民日报|3.9G|News data from People's Daily(1946-2017) http://data.people.com.cn/
+Sogou news 搜狗新闻|3.7G|News data provided by Sogou labs http://www.sogou.com/labs/
 zhihu_QA 知乎问答|3.6G|Chinese QA data from https://www.zhihu.com/ including 32137 questions and 3239114 answers
 literature 文学作品|0.9G|8599 modern Chinese literature works
-Sogou news 搜狗新闻|3.7G|News data provided by Sougou labs http://www.sogou.com/labs/
-mixed-large|17.6G|We create the large corpus by adding the above corpus together
+mixed-large|17.6G|We build the large corpus by merging the above corpora
 mixed-small|4.3G|Sampled from the mixed-large dataset
 
 All the text data are preprocessed by removing html and xml tags. Only the plain text are kept and HanLP(v_1.5.3) are used for word segmentation. 
@@ -30,11 +30,11 @@ Corpus/representations-feature | word2vec-word | word2vec-ngram | word2vec-chara
 Baidu Baike 百度百科 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 wikipedia_zh 中文维基百科 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 People's Daily News 人民日报 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
+Sogou News 搜狗新闻 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 zhihu_QA 知乎问答 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 Literature 文学作品 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
-Sogou News 搜狗新闻 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
-Mixed-small | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 Mixed-large | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
+Mixed-small | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 
 ### Toolkits and training protocols
 The **word2vec-word** is implemented by [word2vec](https://github.com/svn2github/word2vec) toolikit. The **word2vec-character** is implemented by [fasttext](https://github.com/facebookresearch/fastText) toolkit. The rest are implemented by [ngram2vec](https://github.com/zhezhaoa/ngram2vec/) toolkit.
