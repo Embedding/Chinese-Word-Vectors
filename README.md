@@ -9,26 +9,27 @@ Three context features: **word**, **ngram**, and **character** are considered in
 
 ### Corpus
 we made great efforts to collect corpus in various domains. Their detailed information is listed as follows:
-*   baidu_baike; size: 4.3G; description: Chinese Baike data from https://baike.baidu.com/
-*   wikipedia_zh; size: 1.2G; description: Chinese wikipedia data from https://dumps.wikimedia.org/
-*   People's Daily News; size: 3.9G; description: News data from People's Daily(1946-2017) http://data.people.com.cn/
-*   zhihu_QA; size: 3.6G; description: Chinese QA data from https://www.zhihu.com/ including 32137 questions and 3239114 answers
-*   literature; size: 0.9G; description: 8599 modern Chinese literature works
-*   Sogou news; size: 3.7G; description: News data provided by Sougou labs http://www.sogou.com/labs/
-*   mixed-large; size: 17.6G; description: We create the large corpus by adding the above corpus together
-*   mixed-small; size: 4.3G; description: Sampled from the mixed-large dataset
+*   baidu_baike; **size**: 4.3G; **description**: Chinese Baike data from https://baike.baidu.com/
+*   wikipedia_zh; **size**: 1.2G; **description**: Chinese wikipedia data from https://dumps.wikimedia.org/
+*   People's Daily News; **size**: 3.9G; **description**: News data from People's Daily(1946-2017) http://data.people.com.cn/
+*   zhihu_QA; **size**: 3.6G; **description**: Chinese QA data from https://www.zhihu.com/ including 32137 questions and 3239114 answers
+*   literature; **size**: 0.9G; **description**: 8599 modern Chinese literature works
+*   Sogou news; **size**: 3.7G; **description**: News data provided by Sougou labs http://www.sogou.com/labs/
+*   mixed-large; **size**: 17.6G; **description**: We create the large corpus by adding the above corpus together
+*   mixed-small; **size**: 4.3G; **description**: Sampled from the mixed-large dataset
 
+All the text data are preprocessed by removing html and xml tags. Only the plain text are kept and HanLP(v_1.5.3) are used for word segmentation. 
 
 ### Pre-trained Chinese word vectors  
 
 Corpus/representations-feature | word2vec-word | word2vec-ngram | word2vec-character | PPMI-word | PPMI-ngram | PPMI-character
 ----|----|----|----|----|----|----
 Baidu Baike 百度百科 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
-Wikipedia 维基百科 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
-People's Daily 人民日报 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
-Zhihu 知乎 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
+wikipedia_zh 中文维基百科 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
+People's Daily News 人民日报 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
+zhihu_QA 知乎问答 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 Literature 文学作品 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
-sogou News 搜狗新闻 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
+Sogou News 搜狗新闻 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 Mixed-small | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 Mixed-large | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 
