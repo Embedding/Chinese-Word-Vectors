@@ -19,7 +19,7 @@ Sogou news 搜狗新闻|3.7G|News data provided by Sogou labs http://www.sogou.c
 zhihu_QA 知乎问答|3.6G|Chinese QA data from https://www.zhihu.com/ including 32137 questions and 3239114 answers
 literature 文学作品|0.9G|8599 modern Chinese literature works
 The Four Categories 四库全书| |
-Weibo 微博| |https://weibo.com/
+Weibo 微博| | https://weibo.com/
 mixed-large|17.6G|We build the large corpus by merging the above corpora
 
 All the text data are preprocessed by removing html and xml tags. Only the plain text are kept and HanLP(v_1.5.3) are used for word segmentation. 
@@ -36,6 +36,27 @@ zhihu_QA 知乎问答 | [300](http://www.baidu.com) | [300](http://www.baidu.com
 Literature 文学作品 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 Mixed-large | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 Mixed-small | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
+
+
+<table>
+  <tr>
+    <th width=50%, bgcolor=yellow >Co-occurrence type</th>
+    <th width=50%, bgcolor=yellow>Pre-trained word vectors</th>
+  </tr>
+  <tr>
+    <td bgcolor=#eeeeee> word-word </td>
+    <td> [300](http://www.baidu.com) </td>
+  </tr>
+  <tr>
+    <td bgcolor=#00FF00> word-bigram </td>
+    <td> [300](http://www.baidu.com) </td>
+  <tr>
+    <td bgcolor=#00FF00> word-trigram </td>
+    <td> [300](http://www.baidu.com) </td>
+  </tr>
+</table>
+
+
 
 ### Toolkits and training protocols
 The **word2vec-word** is implemented by [word2vec](https://github.com/svn2github/word2vec) toolikit. The **word2vec-character** is implemented by [fasttext](https://github.com/facebookresearch/fastText) toolkit. The rest are implemented by [ngram2vec](https://github.com/zhezhaoa/ngram2vec/) toolkit.
