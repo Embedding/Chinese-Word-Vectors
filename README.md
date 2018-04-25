@@ -40,20 +40,28 @@ Mixed-small | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](
 
 <table>
   <tr>
-    <th width=50%, bgcolor=yellow >Co-occurrence type</th>
-    <th width=50%, bgcolor=yellow>Pre-trained word vectors</th>
+    <th>Feature</th>
+    <th>Co-occurrence type</th>
+    <th>Pre-trained word vectors</th>
   </tr>
   <tr>
-    <td bgcolor=#eeeeee> word-word </td>
+    <td> word </td>
+    <td> word-word </td>
     <td> <a href="http://www.baidu.com">300</a> </td>
   </tr>
   <tr>
-    <td bgcolor=#00FF00> word-bigram </td>
+    <td> ngram </td>
+    <td> word-bigram </td>
     <td> <a href="http://www.baidu.com">300</a> </td>
   <tr>
-    <td bgcolor=#00FF00> word-trigram </td>
+    <td> ngram </td>
+    <td> word-trigram </td>
     <td> <a href="http://www.baidu.com">300</a> </td>
   </tr>
+  <tr>
+    <td> ngram </td>
+    <td> bigram-bigram </td>
+    <td> <a href="http://www.baidu.com">300</a> </td>
 </table>
 
 
