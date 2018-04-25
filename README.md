@@ -8,7 +8,7 @@ Existing word representations methods fall into one of the two classes, **dense*
 Three context features: **word**, **ngram**, and **character** are considered in this work. Most methods learn word representations upon word-word co-occurrence statistics, namely using word as context feature **(word feature)**. Inspired by language modeling problem, we introduce ngram feature into the context. Both word-word and word-bigram co-occurrence statistics are used for training **(ngram feature)**. For Chinese, the character itself conveys strong semantics. We use word-word and word-character co-occurrence statistics to learn word representations. The length of character-level ngrams ranges from 1 to 4 **(character feature)**.
 
 ### Corpus
-we made great efforts to collect corpus in various domains. Their detailed information is listed as follows:
+we made great efforts to collect corpus in various domains. The experimental results show that the corpus domain has substantial influence on word vectors' properties. The detailed corpora information is listed as follows:
 
 Corpus | size | Description 
 ----|----|----
@@ -18,8 +18,9 @@ People's Daily News 人民日报|3.9G|News data from People's Daily(1946-2017) h
 Sogou news 搜狗新闻|3.7G|News data provided by Sogou labs http://www.sogou.com/labs/
 zhihu_QA 知乎问答|3.6G|Chinese QA data from https://www.zhihu.com/ including 32137 questions and 3239114 answers
 literature 文学作品|0.9G|8599 modern Chinese literature works
+The Four Categories 四库全书| |
+Weibo 微博| |https://weibo.com/
 mixed-large|17.6G|We build the large corpus by merging the above corpora
-mixed-small|4.3G|Sampled from the mixed-large dataset
 
 All the text data are preprocessed by removing html and xml tags. Only the plain text are kept and HanLP(v_1.5.3) are used for word segmentation. 
 
