@@ -54,12 +54,12 @@ Mixed-small | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](
     <td> word-bigram </td>
     <td> <a href="http://www.baidu.com">300</a> </td>
   <tr>
-    <td> ngram </td>
+    <td>&nbsp;</td>
     <td> word-trigram </td>
     <td> <a href="http://www.baidu.com">300</a> </td>
   </tr>
   <tr>
-    <td> ngram </td>
+    <td>&nbsp;</td>
     <td> bigram-bigram </td>
     <td> <a href="http://www.baidu.com">300</a> </td>
 </table>
