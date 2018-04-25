@@ -61,11 +61,6 @@ Mixed-small | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](
     <td> bigram-bigram </td>
     <td> <a href="http://www.baidu.com">300</a> </td>
   </tr>
-  <tr>
-    <td> word </td>
-    <td> word-word </td>
-    <td> <a href="http://www.baidu.com">300</a> </td>
-  </tr>
   
   <tr>
     <td rowspan="3"> character </td>
@@ -77,6 +72,16 @@ Mixed-small | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](
   </tr>
   <tr>
     <td> word-character (1-4) </td>
+    <td> <a href="http://www.baidu.com">300</a> </td>
+  </tr>
+  
+  
+  <tr>
+    <td rowspan="2"> position </td>
+    <td> word-word(left/right) (1) </td>
+    <td> <a href="http://www.baidu.com">300</a> </td>
+  <tr>
+    <td> word-word(distance) </td>
     <td> <a href="http://www.baidu.com">300</a> </td>
   </tr>
 </table>
