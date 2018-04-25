@@ -45,14 +45,14 @@ Mixed-small | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](
   </tr>
   <tr>
     <td bgcolor=#eeeeee> word-word </td>
-    <td> [300](http://www.baidu.com) </td>
+    <td> <a href="http://www.baidu.com">300</a> </td>
   </tr>
   <tr>
     <td bgcolor=#00FF00> word-bigram </td>
-    <td> [300](http://www.baidu.com) </td>
+    <td> <a href="http://www.baidu.com">300</a> </td>
   <tr>
     <td bgcolor=#00FF00> word-trigram </td>
-    <td> [300](http://www.baidu.com) </td>
+    <td> <a href="http://www.baidu.com">300</a> </td>
   </tr>
 </table>
 
