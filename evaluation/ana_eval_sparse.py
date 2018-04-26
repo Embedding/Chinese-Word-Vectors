@@ -5,28 +5,40 @@
 import numpy as np
 import argparse
 import random
+from scipy.sparse import dok_matrix, csr_matrix
 
-def read_vectors(path, topn):  # read top n word vectors, i.e. top is 10000
-    lines_num, dim = 0, 0
-    vectors = {}
-    iw = []
-    wi = {}
-    with open(path) as f:
+def load_matrix(f_path):
+    with open(f_path, "r") as f:
+        row, col, data, iw = [], [], [], []
         first_line = True
+        lines_num = 0
         for line in f:
             if first_line:
                 first_line = False
+                words_num = int(line.strip().split()[0])
                 dim = int(line.strip().split()[1])
                 continue
-            lines_num += 1
-            tokens = line.strip().split(' ')
-            vectors[tokens[0]] = np.asarray([float(x) for x in tokens[1:]])
+            tokens = line.strip().split()
             iw.append(tokens[0])
-            if topn != 0 and lines_num >= topn:
-                break
-    for i, w in enumerate(iw):
-        wi[w] = i
-    return vectors, iw, wi, dim
+            vector = tokens[1:]
+            for v in vector:
+                row.append(lines_num)
+                col.append(int(v.split(":")[0]))
+                data.append(float(v.split(":")[1]))
+            lines_num += 1
+        wi = {}
+        for i in range(len(iw)):
+            wi[iw[i]] = i
+        row = np.array(row)
+        col = np.array(col)
+        data = np.array(data)
+        matrix = csr_matrix((data, (row, col)), shape=(words_num, dim))
+        return matrix, iw, wi
+
+def load_vocabulary(path):
+    with open(path) as f:
+        vocab = [line.strip().split()[0] for line in f if len(line) > 0]
+    return dict([(a, i) for i, a in enumerate(vocab)]), vocab
 
 def read_analogy(path, iw):
     analogy = {}
@@ -64,8 +76,12 @@ def read_analogy(path, iw):
         return analogy
 
 def normalize(matrix):
-    norm = np.sqrt(np.sum(matrix * matrix, axis=1))
-    matrix = matrix / norm[:, np.newaxis]
+    matrix2 = matrix.copy()
+    matrix2.data **= 2
+    norm = np.reciprocal(np.sqrt(np.array(matrix2.sum(axis=1))[:, 0]))
+    normalizer = dok_matrix((len(norm), len(norm)))
+    normalizer.setdiag(norm)
+    matrix = normalizer.tocsr().dot(matrix)
     return matrix
 
 def guess(sims, analogy, analogy_type, iw, wi, word_a, word_b, word_c):
@@ -87,37 +103,29 @@ def guess(sims, analogy, analogy_type, iw, wi, word_a, word_b, word_c):
     return guess_add, guess_mul
 
 def main():
-    vectors_path = "embedding_sample/dense_small.txt"
+    neg = 1
+    vectors_path = "embedding_sample/sparse_small.txt"
     analogy_path = "CA8/morphological.txt"
-    topn = 0
-    results = {} # Records the results
+    results = {}
+
     myParser = argparse.ArgumentParser()
     myParser.add_argument('-v', '--vectors', type=str, help="Vectors path")
     myParser.add_argument('-a', '--analogy', type=str, help="Analogy benchmark path")
-    myParser.add_argument('-t', '--topn', type=int, help="Read top n word vectors")
     args = myParser.parse_args()
     if args.vectors:
         vectors_path = args.vectors
     if args.analogy:
         analogy_path = args.analogy
-    if args.topn:
-        topn = args.topn
 
-    vectors, iw, wi, dim = read_vectors(vectors_path, topn)  # Read top n word vectors. Read all vectors when topn is 0
-    analogy = read_analogy(analogy_path, iw)  # Read analogy questions
-
-    # Turn vectors into numpy format and normalize them
-    matrix = np.zeros(shape=(len(iw), dim), dtype=np.float32)
-    for i, word in enumerate(iw):
-        matrix[i, :] = vectors[word]
+    matrix, iw, wi = load_matrix(vectors_path)  # Read matrix into the memory
     matrix = normalize(matrix)
-
+    analogy = read_analogy(analogy_path, iw)
     for analogy_type in analogy.keys():  # Calculate the accuracy for each relation type
         correct_add_num, correct_mul_num = 0, 0
         analogy_matrix = matrix[[wi[w] if w in wi else random.randint(0, len(wi)-1) for w in analogy[analogy_type]["iw"]]]
         sims = analogy_matrix.dot(matrix.T)
-        sims = (sims + 1)/2  # Transform similarity scores to positive numbers (for mul evaluation)
-        for question in analogy[analogy_type]["questions"]: # Loop for each analogy question
+        sims = np.array(sims.todense())
+        for question in analogy[analogy_type]["questions"]:  # Loop for each analogy question
             word_a, word_b, word_c, word_d = question
             guess_add, guess_mul = guess(sims, analogy, analogy_type, iw, wi, word_a, word_b, word_c)
             if guess_add == word_d:
@@ -128,11 +136,11 @@ def main():
         if analogy[analogy_type]["seen"] == 0:
             acc_add = 0
             acc_mul = 0
-            print (analogy_type + " add/mul: " +  str(round(0.0, 3)) + "/" + str(round(0.0, 3)))
+            print (analogy_type + " add/mul: " + str(round(0.0, 3)) + "/" + str(round(0.0, 3)))
         else:
             acc_add = float(correct_add_num) / analogy[analogy_type]["seen"]
             acc_mul = float(correct_mul_num) / analogy[analogy_type]["seen"]
-            print (analogy_type + " add/mul: " + str(round(acc_add, 3)) + "/" + str(round(acc_mul, 3)))
+            print (analogy_type + " add/mul: " +  str(round(acc_add, 3)) + "/" + str(round(acc_mul, 3)))
         # Store the results
         results[analogy_type] = {}
         results[analogy_type]["coverage"] = [cov,analogy[analogy_type]["seen"], analogy[analogy_type]["total"]]
@@ -144,12 +152,8 @@ def main():
         correct_add_num += results[analogy_type]["accuracy_add"][1]
         correct_mul_num += results[analogy_type]["accuracy_mul"][1]
         seen += results[analogy_type]["coverage"][1]
-    if seen == 0:
-        print ("Total accuracy (add): " + str(round(0.0, 3)))
-        print ("Total accuracy (mul): " + str(round(0.0, 3)))
-    else:
-        print ("Total accuracy (add): " + str(round(float(correct_add_num)/seen, 3)))
-        print ("Total accuracy (mul): " + str(round(float(correct_mul_num)/seen, 3)))
+    print ("Total accuracy (add): " + str(round(float(correct_add_num)/seen, 3)))
+    print ("Total accuracy (mul): " + str(round(float(correct_mul_num)/seen, 3)))
     # print results
 
 if __name__ == '__main__':
