@@ -16,16 +16,16 @@ we made great efforts to collect corpus in various domains. All the text data ar
 
 Corpus | size | Description 
 ----|----|----
-baidu_baike 百度百科|4.3G|Chinese Baike data from https://baike.baidu.com/
-wikipedia_zh 中文维基百科|1.2G|Chinese wikipedia data from https://dumps.wikimedia.org/
+Baidu_baike 百度百科|4.3G|Chinese Baike data from https://baike.baidu.com/
+Wikipedia_zh 中文维基百科|1.2G|Chinese wikipedia data from https://dumps.wikimedia.org/
 People's Daily News 人民日报|3.9G|News data from People's Daily(1946-2017) http://data.people.com.cn/
 Sogou news 搜狗新闻|3.7G|News data provided by Sogou labs http://www.sogou.com/labs/
-financial news 金融新闻| | 
-zhihu_QA 知乎问答|3.6G|Chinese QA data from https://www.zhihu.com/ including 32137 questions and 3239114 answers
-literature 文学作品|0.9G|8599 modern Chinese literature works
+Financial news 金融新闻| | 
+Zhihu_QA 知乎问答|3.6G|Chinese QA data from https://www.zhihu.com/ including 32137 questions and 3239114 answers
+Literature 文学作品|0.9G|8599 modern Chinese literature works
 The Four Categories 四库全书| |
 Weibo 微博| | https://weibo.com/
-mixed-large|17.6G|We build the large corpus by merging the above corpora
+Mixed-large|17.6G|We build the large corpus by merging the above corpora
 
 
 ### Pre-trained Chinese word vectors
@@ -35,13 +35,15 @@ The word vectors trained by different representation methods, context features, 
 Corpus/representations-feature | word2vec-word | word2vec-ngram | word2vec-character | PPMI-word | PPMI-ngram | PPMI-character
 ----|----|----|----|----|----|----
 Baidu Encyclopedia 百度百科 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
-wikipedia_zh 中文维基百科 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
+Wikipedia_zh 中文维基百科 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 People's Daily News 人民日报 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 Sogou News 搜狗新闻 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
-zhihu_QA 知乎问答 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
+Financial News 金融新闻 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
+Zhihu_QA 知乎问答 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
+Weibo 微博 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 Literature 文学作品 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
+The Four Categories 四库全书 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 Mixed-large | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
-Mixed-small | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 
 
 The word vectors trained upon different co-occurrence statistics. SGNS is used for training and Baidu Encyclopedia is used as training corpus. 
@@ -55,62 +57,62 @@ The word vectors trained upon different co-occurrence statistics. SGNS is used f
   <tr>
     <td> word </td>
     <td> word-word </td>
-    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target (input vectors)</a>; <a href="http://www.baidu.com">context (output vectors)</a> </td>
   </tr>
   <tr>
     <td rowspan="3"> ngram </td>
     <td> word-bigram </td>
-    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target (input vectors)</a>; <a href="http://www.baidu.com">context (output vectors)</a> </td>
   <tr>
     <td> word-trigram </td>
-    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target (input vectors)</a>; <a href="http://www.baidu.com">context (output vectors)</a> </td>
   </tr>
   <tr>
     <td> bigram-bigram </td>
-    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target (input vectors)</a>; <a href="http://www.baidu.com">context (output vectors)</a> </td>
   </tr>
   
   <tr>
     <td rowspan="3"> character </td>
     <td> word-character (1) </td>
-    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target (input vectors)</a>; <a href="http://www.baidu.com">context (output vectors)</a> </td>
   <tr>
     <td> word-character (1-2) </td>
-    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target (input vectors)</a>; <a href="http://www.baidu.com">context (output vectors)</a> </td>
   </tr>
   <tr>
     <td> word-character (1-4) </td>
-    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target (input vectors)</a>; <a href="http://www.baidu.com">context (output vectors)</a> </td>
   </tr>
   
   <tr>
     <td> radical </td>
     <td> radical </td>
-    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target (input vectors)</a>; <a href="http://www.baidu.com">context (output vectors)</a> </td>
   <tr>
   
   <tr>
     <td rowspan="2"> position </td>
     <td> word-word(left/right) (1) </td>
-    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target (input vectors)</a>; <a href="http://www.baidu.com">context (output vectors)</a> </td>
   <tr>
     <td> word-word(distance) </td>
-    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target (input vectors)</a>; <a href="http://www.baidu.com">context (output vectors)</a> </td>
   </tr>
   
   <tr>
     <td> global </td>
     <td> word-text </td>
-    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target (input vectors)</a>; <a href="http://www.baidu.com">context (output vectors)</a> </td>
   <tr>
     
   <tr>
     <td rowspan="2"> syntactic feature </td>
     <td> word-POS </td>
-    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target (input vectors)</a>; <a href="http://www.baidu.com">context (output vectors)</a> </td>
   <tr>
     <td> word-dependency </td>
-    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target (input vectors)</a>; <a href="http://www.baidu.com">context (output vectors)</a> </td>
   </tr>
     
 </table>
