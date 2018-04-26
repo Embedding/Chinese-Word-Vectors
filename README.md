@@ -1,11 +1,15 @@
 # Chinese-Word-Vectors 中文词向量
-We provide Chinese word vectors trained by different **representations** (dense and sparse), **context features** (word, ngram, and character), and **corpora**. One can easily reproduce the results reported in the paper by downloading the trained vectors, analogical reasoning datasets, and evaluation scripts. 
+This project provides Chinese word vectors (embeddings) trained by different **representations** (dense and sparse), **context features** (word, ngram, character, and more), and **corpora**. One can easily obtain pre-trained vectors of different properties and use them for their (downstream) tasks. Moreover, we provide a Chinese analogical reasoning dataset and an evaluation toolkit for users to select suitable word vectors.  
 
 ### Representations
-Existing word representations methods fall into one of the two classes, **dense** and **sparse** represnetations. Word2vec and PPMI are respectively typical methods of these two classes. Word2vec trains low-dimensional real (dense) vectors through shallow neural network. It is also often called neural embedding method. PPMI is a sparse bag-of-features representation weighted by positive-pointwise-mutual-information (PPMI) weighting scheme.
+Existing word representation methods fall into one of the two classes, **dense** and **sparse** represnetations. Word2vec and PPMI are respectively typical methods of these two classes. Word2vec trains low-dimensional real (dense) vectors through shallow neural network. It is also often called neural embedding method. PPMI is a sparse bag-of-features representation weighted by positive-pointwise-mutual-information (PPMI) weighting scheme.
 
 ### Context features
-Three context features: **word**, **ngram**, and **character** are considered in this work. Most methods learn word representations upon word-word co-occurrence statistics, namely using word as context feature **(word feature)**. Inspired by language modeling problem, we introduce ngram feature into the context. Both word-word and word-bigram co-occurrence statistics are used for training **(ngram feature)**. For Chinese, the character itself conveys strong semantics. We use word-word and word-character co-occurrence statistics to learn word representations. The length of character-level ngrams ranges from 1 to 4 **(character feature)**.
+Three context features: **word**, **ngram**, and **character** are commonly used in the word embedding literature. Most word representation methods essentially exploit word-word co-occurrence statistics, namely using word as context feature **(word feature)**. Inspired by language modeling problem, we introduce ngram feature into the context. Both word-word and word-bigram co-occurrence statistics are used for training **(ngram feature)**. For Chinese, the character itself often conveys strong semantics. To this end, we consider using word-word and word-character co-occurrence statistics for learning word vectors. The length of character-level ngrams ranges from 1 to 4 **(character feature)**.
+
+Besides word, ngram, and character, there are many other features which have substantial influence on word vectors' properties. For example, using entire text as context feature could introduce more topic information into word vectors; using dependency parse as context feature could add syntactic constraint to word vectors. Thanks to the flexibility of [ngram2vec](http://www.baidu.com) toolkit, we can add arbitrary context features with little effort. We 
+
+
 
 ### Corpus
 we made great efforts to collect corpus in various domains. The experimental results show that the corpus domain has substantial influence on word vectors' properties. The detailed corpora information is listed as follows:
