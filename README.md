@@ -47,62 +47,62 @@ Mixed-small | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](
   <tr>
     <td> word </td>
     <td> word-word </td>
-    <td> <a href="http://www.baidu.com">center</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
   </tr>
   <tr>
     <td rowspan="3"> ngram </td>
     <td> word-bigram </td>
-    <td> <a href="http://www.baidu.com">center</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
   <tr>
     <td> word-trigram </td>
-    <td> <a href="http://www.baidu.com">center</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
   </tr>
   <tr>
     <td> bigram-bigram </td>
-    <td> <a href="http://www.baidu.com">center</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
   </tr>
   
   <tr>
     <td rowspan="3"> character </td>
     <td> word-character (1) </td>
-    <td> <a href="http://www.baidu.com">center</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
   <tr>
     <td> word-character (1-2) </td>
-    <td> <a href="http://www.baidu.com">center</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
   </tr>
   <tr>
     <td> word-character (1-4) </td>
-    <td> <a href="http://www.baidu.com">center</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
   </tr>
   
   <tr>
     <td> radical </td>
     <td> radical </td>
-    <td> <a href="http://www.baidu.com">center</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
   <tr>
   
   <tr>
     <td rowspan="2"> position </td>
     <td> word-word(left/right) (1) </td>
-    <td> <a href="http://www.baidu.com">center</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
   <tr>
     <td> word-word(distance) </td>
-    <td> <a href="http://www.baidu.com">center</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
   </tr>
   
   <tr>
     <td> global </td>
     <td> word-text </td>
-    <td> <a href="http://www.baidu.com">center</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
   <tr>
     
   <tr>
     <td rowspan="2"> syntactic feature </td>
     <td> word-POS </td>
-    <td> <a href="http://www.baidu.com">center</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
   <tr>
     <td> word-dependency </td>
-    <td> <a href="http://www.baidu.com">center</a>; <a href="http://www.baidu.com">context</a> </td>
+    <td> <a href="http://www.baidu.com">target</a>; <a href="http://www.baidu.com">context</a> </td>
   </tr>
     
 </table>
