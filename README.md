@@ -120,6 +120,15 @@ The word vectors trained upon different co-occurrence statistics. SGNS is used f
 
 
 ### Toolkits and training protocols
-The **word2vec-word** is implemented by [word2vec](https://github.com/svn2github/word2vec) toolikit. The **word2vec-character** is implemented by [fasttext](https://github.com/facebookresearch/fastText) toolkit. The rest are implemented by [ngram2vec](https://github.com/zhezhaoa/ngram2vec/) toolkit.
+All word vectors are trained by [ngram2vec](https://github.com/zhezhaoa/ngram2vec/) toolkit. Ngram2vec toolkit is a superset of [word2vec](https://github.com/svn2github/word2vec) and [fasttext](https://github.com/facebookresearch/fastText) toolkit, where arbitrary context features and models are supported.
 
-The detailed training protocols are as follows: the size of dynamic window is set to 5; the dimension is 300; high-frequency words are filtered with sub-sampling at 1e-5 and low-frequency words are removed with threshold at 5. For word2vec model, we use skip-gram with negative sampling. For both word2vec and PPMI, context distribution smoothing (cds) is set to 0.75. 
+The detailed training protocols are as follows: the size of dynamic window is set to 5; the dimension is 300; high-frequency words are filtered with sub-sampling at 1e-5 and low-frequency words are removed with threshold at 100.
+
+### Chinese word analogy benchmark
+The quality of word vectors is often evaluated by analogy question. In this project, two benchmarks are exploited for evaluation. The first is CA-translated, where most analogy questions are directly translated from English benchmark. Although CA-translated has been widely used in many Chinese word embedding papers, it only contains questions of three semantic questions and covers 134 Chinese words. In contrast, CA8 is specifically designed for Chinese language. It contains 17813 analogy questions and covers comprehensive morphological and semantic relations. The CA-translated, CA8, and their detailed descriptions are provided in **testsets** folder.
+
+
+### Evaluation toolkit
+We presents an evaluation toolkit in **evaluation** folder. Run the following codes to evaluate your trained dense vectors.
+
+Run the following codes to evaluate your sparse vectors.
