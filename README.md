@@ -2,7 +2,7 @@
 This project provides Chinese word vectors (embeddings) trained by different **representations** (dense and sparse), **context features** (word, ngram, character, and more), and **corpora**. One can easily obtain pre-trained vectors of different properties and use them for their (downstream) tasks. Moreover, we provide a Chinese analogical reasoning dataset and an evaluation toolkit for users to select suitable word vectors.  
 
 ### Representations
-Existing word representation methods fall into one of the two classes, **dense** and **sparse** represnetations. Word2vec and PPMI are respectively typical methods of these two classes. Word2vec trains low-dimensional real (dense) vectors through shallow neural network. It is also often called neural embedding method. PPMI is a sparse bag-of-features representation weighted by positive-pointwise-mutual-information (PPMI) weighting scheme.
+Existing word representation methods fall into one of the two classes, **dense** and **sparse** represnetations. SGNS (a model in word2vec toolkit) and PPMI are respectively typical methods of these two classes. SGNS trains low-dimensional real (dense) vectors through shallow neural network. It is also often called neural embedding method. PPMI is a sparse bag-of-features representation weighted by positive-pointwise-mutual-information (PPMI) weighting scheme.
 
 ### Context features
 Three context features: **word**, **ngram**, and **character** are commonly used in the word embedding literature. Most word representation methods essentially exploit word-word co-occurrence statistics, namely using word as context feature **(word feature)**. Inspired by language modeling problem, we introduce ngram feature into the context. Both word-word and word-bigram co-occurrence statistics are used for training **(ngram feature)**. For Chinese, the character itself often conveys strong semantics. To this end, we consider using word-word and word-character co-occurrence statistics for learning word vectors. The length of character-level ngrams ranges from 1 to 4 **(character feature)**.
@@ -12,7 +12,7 @@ Besides word, ngram, and character, there are many other features which have sub
 
 
 ### Corpus
-we made great efforts to collect corpus in various domains. The detailed corpora information is listed as follows:
+we made great efforts to collect corpus in various domains. All the text data are preprocessed by removing html and xml tags. Only the plain text are kept and HanLP(v_1.5.3) is used for word segmentation. The detailed corpora information is listed as follows:
 
 Corpus | size | Description 
 ----|----|----
@@ -27,7 +27,6 @@ The Four Categories 四库全书| |
 Weibo 微博| | https://weibo.com/
 mixed-large|17.6G|We build the large corpus by merging the above corpora
 
-All the text data are preprocessed by removing html and xml tags. Only the plain text are kept and HanLP(v_1.5.3) is used for word segmentation.
 
 ### Pre-trained Chinese word vectors
 
@@ -35,7 +34,7 @@ The word vectors trained by different representation methods, context features, 
 
 Corpus/representations-feature | word2vec-word | word2vec-ngram | word2vec-character | PPMI-word | PPMI-ngram | PPMI-character
 ----|----|----|----|----|----|----
-Baidu Baike 百度百科 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
+Baidu Encyclopedia 百度百科 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 wikipedia_zh 中文维基百科 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 People's Daily News 人民日报 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 Sogou News 搜狗新闻 | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
@@ -44,6 +43,8 @@ Literature 文学作品 | [300](http://www.baidu.com) | [300](http://www.baidu.c
 Mixed-large | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 Mixed-small | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 
+
+The word vectors trained upon different co-occurrence statistics. SGNS is used for training and Baidu Encyclopedia is used as training corpus. 
 
 <table>
   <tr>
