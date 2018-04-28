@@ -2,34 +2,7 @@
 This project provides Chinese word vectors (embeddings) trained by different **representations** (dense and sparse), **context features** (word, ngram, character, and more), and **corpora**. One can easily obtain pre-trained vectors with different properties and use them for their (downstream) tasks. Moreover, we provide a Chinese analogical reasoning dataset and an evaluation toolkit for users to evaluate the quality of their word vectors.
 
 ### Format
-The pre-trained vectors are in text format. Each line contains a word and its vectors. Each value is separated by space. The first line records the meta information: the first number indicates the number of words in the file and the second indicates the dimension size. Besides dense word vectors, we also provide sparse vectors. They are in the same format with liblinear, where the number before $:$ denotes dimension index and the number after the $:$ denotes the value. 
-
-### Representations
-Existing word representation methods fall into one of the two classes, **dense** and **sparse** represnetations. SGNS (a model in word2vec toolkit) and PPMI are respectively typical methods of these two classes. SGNS trains low-dimensional real (dense) vectors through shallow neural network. It is also often called neural embedding method. PPMI is a sparse bag-of-features representation weighted by positive-pointwise-mutual-information (PPMI) weighting scheme.
-
-### Context features
-Three context features: **word**, **ngram**, and **character** are commonly used in the word embedding literature. Most word representation methods essentially exploit word-word co-occurrence statistics, namely using word as context feature **(word feature)**. Inspired by language modeling problem, we introduce ngram feature into the context. Both word-word and word-bigram co-occurrence statistics are used for training **(ngram feature)**. For Chinese, the character itself often conveys strong semantics. To this end, we consider using word-word and word-character co-occurrence statistics for learning word vectors. The length of character-level ngrams ranges from 1 to 4 **(character feature)**.
-
-Besides word, ngram, and character, there are many other features which have substantial influence on word vectors' properties. For example, using entire text as context feature could introduce more topic information into word vectors; using dependency parse as context feature could add syntactic constraint to word vectors. Thanks to the flexibility of [ngram2vec](https://github.com/zhezhaoa/ngram2vec) toolkit, we can add arbitrary context features with little effort. In total 17 co-occurrence types are considered in this project.
-
-
-
-### Corpus
-we made great efforts to collect corpus in various domains. All the text data are preprocessed by removing html and xml tags. Only the plain text are kept and HanLP(v_1.5.3) is used for word segmentation. The detailed corpora information is listed as follows:
-
-Corpus | size | Description 
-----|----|----
-Baidu_baike 百度百科|4.3G|Chinese Baike data from https://baike.baidu.com/
-Wikipedia_zh 中文维基百科|1.2G|Chinese wikipedia data from https://dumps.wikimedia.org/
-People's Daily News 人民日报|3.9G|News data from People's Daily(1946-2017) http://data.people.com.cn/
-Sogou news 搜狗新闻|3.7G|News data provided by Sogou labs http://www.sogou.com/labs/
-Financial news 金融新闻| | 
-Zhihu_QA 知乎问答|3.6G|Chinese QA data from https://www.zhihu.com/ including 32137 questions and 3239114 answers
-Literature 文学作品|0.9G|8599 modern Chinese literature works
-The Four Categories 四库全书| |
-Weibo 微博| | https://weibo.com/
-Mixed-large|17.6G|We build the large corpus by merging the above corpora
-
+The pre-trained vectors are in text format. Each line contains a word and its vectors. Each value is separated by space. The first line records the meta information: the first number indicates the number of words in the file and the second indicates the dimension size. Besides dense word vectors, we also provide sparse vectors. They are in the same format with liblinear, where the number before **:** denotes dimension index and the number after the **:** denotes the value. 
 
 ### Pre-trained Chinese word vectors
 
@@ -120,6 +93,34 @@ The word vectors trained upon different co-occurrence statistics. SGNS is used f
     
 </table>
 
+
+
+
+### Representations
+Existing word representation methods fall into one of the two classes, **dense** and **sparse** represnetations. SGNS (a model in word2vec toolkit) and PPMI are respectively typical methods of these two classes. SGNS trains low-dimensional real (dense) vectors through shallow neural network. It is also often called neural embedding method. PPMI is a sparse bag-of-features representation weighted by positive-pointwise-mutual-information (PPMI) weighting scheme.
+
+### Context features
+Three context features: **word**, **ngram**, and **character** are commonly used in the word embedding literature. Most word representation methods essentially exploit word-word co-occurrence statistics, namely using word as context feature **(word feature)**. Inspired by language modeling problem, we introduce ngram feature into the context. Both word-word and word-bigram co-occurrence statistics are used for training **(ngram feature)**. For Chinese, the character itself often conveys strong semantics. To this end, we consider using word-word and word-character co-occurrence statistics for learning word vectors. The length of character-level ngrams ranges from 1 to 4 **(character feature)**.
+
+Besides word, ngram, and character, there are many other features which have substantial influence on word vectors' properties. For example, using entire text as context feature could introduce more topic information into word vectors; using dependency parse as context feature could add syntactic constraint to word vectors. Thanks to the flexibility of [ngram2vec](https://github.com/zhezhaoa/ngram2vec) toolkit, we can add arbitrary context features with little effort. In total 17 co-occurrence types are considered in this project.
+
+
+
+### Corpus
+we made great efforts to collect corpus in various domains. All the text data are preprocessed by removing html and xml tags. Only the plain text are kept and HanLP(v_1.5.3) is used for word segmentation. The detailed corpora information is listed as follows:
+
+Corpus | size | Description 
+----|----|----
+Baidu_baike 百度百科|4.3G|Chinese Baike data from https://baike.baidu.com/
+Wikipedia_zh 中文维基百科|1.2G|Chinese wikipedia data from https://dumps.wikimedia.org/
+People's Daily News 人民日报|3.9G|News data from People's Daily(1946-2017) http://data.people.com.cn/
+Sogou news 搜狗新闻|3.7G|News data provided by Sogou labs http://www.sogou.com/labs/
+Financial news 金融新闻| | 
+Zhihu_QA 知乎问答|3.6G|Chinese QA data from https://www.zhihu.com/ including 32137 questions and 3239114 answers
+Literature 文学作品|0.9G|8599 modern Chinese literature works
+The Four Categories 四库全书| |
+Weibo 微博| | https://weibo.com/
+Mixed-large|17.6G|We build the large corpus by merging the above corpora
 
 
 ### Toolkits and training protocols
