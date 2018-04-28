@@ -22,7 +22,7 @@ The Four Categories 四库全书 | [300](http://www.baidu.com) | [300](http://ww
 Mixed-large | [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com) |  [300](http://www.baidu.com) | [300](http://www.baidu.com) | [300](http://www.baidu.com)
 
 
-The word vectors trained upon different co-occurrence statistics. SGNS is used for training and Baidu Encyclopedia is used as training corpus. Target and context vectors are often called input and output vectors in some other related papers. Notice that one can obtain vectors of arbitrary linguistic units beyond word. For example, one can obtain character and radical vectors by downloading context vectors in word-character and word-radical rows
+The word vectors trained upon different co-occurrence statistics. SGNS is used for training and Baidu Encyclopedia is used as training corpus. Target and context vectors are often called input and output vectors in some related papers. Notice that one can obtain vectors of arbitrary linguistic units beyond word. For example, one can obtain character and radical vectors by downloading context vectors in word-character and word-radical rows
 
 <table>
   <tr>
