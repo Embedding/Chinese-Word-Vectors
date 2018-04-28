@@ -1,5 +1,8 @@
 # Chinese-Word-Vectors 中文词向量
-This project provides Chinese word vectors (embeddings) trained by different **representations** (dense and sparse), **context features** (word, ngram, character, and more), and **corpora**. One can easily obtain pre-trained vectors of different properties and use them for their (downstream) tasks. Moreover, we provide a Chinese analogical reasoning dataset and an evaluation toolkit for users to select suitable word vectors.  
+This project provides Chinese word vectors (embeddings) trained by different **representations** (dense and sparse), **context features** (word, ngram, character, and more), and **corpora**. One can easily obtain pre-trained vectors with different properties and use them for their (downstream) tasks. Moreover, we provide a Chinese analogical reasoning dataset and an evaluation toolkit for users to evaluate the quality of their word vectors.
+
+### Format
+The pre-trained vectors are in text format. Each line contains a word and its vectors. Each value is separated by space. The first line records the meta information: the first number indicates the number of words in the file and the second indicates the dimension size. Besides dense word vectors, we also provide sparse vectors. They are in the same format with liblinear, where the number before $:$ denotes dimension index and the number after the $:$ denotes the value. 
 
 ### Representations
 Existing word representation methods fall into one of the two classes, **dense** and **sparse** represnetations. SGNS (a model in word2vec toolkit) and PPMI are respectively typical methods of these two classes. SGNS trains low-dimensional real (dense) vectors through shallow neural network. It is also often called neural embedding method. PPMI is a sparse bag-of-features representation weighted by positive-pointwise-mutual-information (PPMI) weighting scheme.
