@@ -1,0 +1,129 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "Welcome to Chinese vector service (CVS)\n\n\nThis project provides a 'one-stop' Chinese vector service (CVS). It consists of the following components:\n\n\n\n\n\n\ncorpora.\n\nIt is well known that the property of word embedding is closely related with its training corpus. We made huge effort to collect and preprocess a large amount of Chinese corpora with various sizes and domains. \n\n\n\n\n\n\ntoolkit.\n\nNgram2vec toolkit is used for training vectors. Ngram2vec supports arbitrary features and models, and allow users to improve existing word representation methods with no effort. \n\n\n\n\n\n\nPre-trained vectors.\n\nWe release Chinese vectors trained with different representations (dense and sparse), features, and corpora, which could meet different requirements of users. \n\n\n\n\n\n\nEvaluation.\n\nBy now, two Chinese analogical datasets, CA-translated and CA8, are used as intrinsic benchmark for evaluating Chinese word vectors. A sequence tagging dataset and a text classification dataset are used as external benchmark. \n\n\n\n\n\n\nAlso, we opensource an evaluation toolkit for analogy task, which ensures fair comparison of different word vectors.\n\n\nFAQ",
+            "title": "index"
+        },
+        {
+            "location": "/#welcome-to-chinese-vector-service-cvs",
+            "text": "This project provides a 'one-stop' Chinese vector service (CVS). It consists of the following components:    corpora. \nIt is well known that the property of word embedding is closely related with its training corpus. We made huge effort to collect and preprocess a large amount of Chinese corpora with various sizes and domains.     toolkit. \nNgram2vec toolkit is used for training vectors. Ngram2vec supports arbitrary features and models, and allow users to improve existing word representation methods with no effort.     Pre-trained vectors. \nWe release Chinese vectors trained with different representations (dense and sparse), features, and corpora, which could meet different requirements of users.     Evaluation. \nBy now, two Chinese analogical datasets, CA-translated and CA8, are used as intrinsic benchmark for evaluating Chinese word vectors. A sequence tagging dataset and a text classification dataset are used as external benchmark.     Also, we opensource an evaluation toolkit for analogy task, which ensures fair comparison of different word vectors.",
+            "title": "Welcome to Chinese vector service (CVS)"
+        },
+        {
+            "location": "/#faq",
+            "text": "",
+            "title": "FAQ"
+        },
+        {
+            "location": "/corpora/",
+            "text": "Corpora\n\n\nPreprocessing steps\n\n\nwe made great effort to collect and preprocess corpora in various sizes and domains. All the text data are preprocessed via the following steps:\n\n\n\n\nRemove the html and xml tags from the texts and set the encoding as utf-8. Digit and punctuation are remained.\n\n\nCovert trainditional Chinese characters into simplified characters with Open Chinese Convert (OpenCC).\n\n\nConduct Chinese word segmentation with HanLP(v_1.5.3).\n\n\n\n\nCorpora details\n\n\n\n\n\n\n\n\nCorpus\n\n\nsize\n\n\nDescription\n\n\n\n\n\n\n\n\n\n\nBaidu_baike \u767e\u5ea6\u767e\u79d1\n\n\n4.3G\n\n\nChinese Baike data from https://baike.baidu.com/\n\n\n\n\n\n\nWikipedia_zh \u4e2d\u6587\u7ef4\u57fa\u767e\u79d1\n\n\n1.2G\n\n\nChinese wikipedia data from https://dumps.wikimedia.org/\n\n\n\n\n\n\nPeople's Daily News \u4eba\u6c11\u65e5\u62a5\n\n\n3.9G\n\n\nNews data from People's Daily(1946-2017) http://data.people.com.cn/\n\n\n\n\n\n\nSogou news \u641c\u72d7\u65b0\u95fb\n\n\n3.7G\n\n\nNews data provided by Sogou labs http://www.sogou.com/labs/\n\n\n\n\n\n\nFinancial news \u91d1\u878d\u65b0\u95fb\n\n\n\n\n\n\n\n\n\n\nZhihu_QA \u77e5\u4e4e\u95ee\u7b54\n\n\n3.6G\n\n\nChinese QA data from https://www.zhihu.com/ including 32137 questions and 3239114 answers\n\n\n\n\n\n\nLiterature \u6587\u5b66\u4f5c\u54c1\n\n\n0.9G\n\n\n8599 modern Chinese literature works\n\n\n\n\n\n\nThe Four Categories \u56db\u5e93\u5168\u4e66\n\n\n\n\n\n\n\n\n\n\nWeibo \u5fae\u535a\n\n\n\n\nhttps://weibo.com/\n\n\n\n\n\n\nMixed-large\n\n\n17.6G\n\n\nWe build the large corpus by merging the above corpora",
+            "title": "corpora"
+        },
+        {
+            "location": "/corpora/#corpora",
+            "text": "",
+            "title": "Corpora"
+        },
+        {
+            "location": "/corpora/#preprocessing-steps",
+            "text": "we made great effort to collect and preprocess corpora in various sizes and domains. All the text data are preprocessed via the following steps:   Remove the html and xml tags from the texts and set the encoding as utf-8. Digit and punctuation are remained.  Covert trainditional Chinese characters into simplified characters with Open Chinese Convert (OpenCC).  Conduct Chinese word segmentation with HanLP(v_1.5.3).",
+            "title": "Preprocessing steps"
+        },
+        {
+            "location": "/corpora/#corpora-details",
+            "text": "Corpus  size  Description      Baidu_baike \u767e\u5ea6\u767e\u79d1  4.3G  Chinese Baike data from https://baike.baidu.com/    Wikipedia_zh \u4e2d\u6587\u7ef4\u57fa\u767e\u79d1  1.2G  Chinese wikipedia data from https://dumps.wikimedia.org/    People's Daily News \u4eba\u6c11\u65e5\u62a5  3.9G  News data from People's Daily(1946-2017) http://data.people.com.cn/    Sogou news \u641c\u72d7\u65b0\u95fb  3.7G  News data provided by Sogou labs http://www.sogou.com/labs/    Financial news \u91d1\u878d\u65b0\u95fb      Zhihu_QA \u77e5\u4e4e\u95ee\u7b54  3.6G  Chinese QA data from https://www.zhihu.com/ including 32137 questions and 3239114 answers    Literature \u6587\u5b66\u4f5c\u54c1  0.9G  8599 modern Chinese literature works    The Four Categories \u56db\u5e93\u5168\u4e66      Weibo \u5fae\u535a   https://weibo.com/    Mixed-large  17.6G  We build the large corpus by merging the above corpora",
+            "title": "Corpora details"
+        },
+        {
+            "location": "/toolkit/",
+            "text": "Ngram2vec toolkit\n\n\nNgram2vec is a toolkit aiming at training word vectors of various properties. Different from other popular word embedding toolkits which are designed for a specific representation method, ngram2vec supports arbitrary context features and models, and allows users to improve existing representation methods with no effort.The powerfulness of ngram2vec comes from its \ndecoupled\n architecture, which is illustrated in figure below. To be more concrete, the \ndecoupled\n architecture brings the following advantages:  \n\n\n\n\n\n\nextensibility. \n\n\n\n\n\n\nreusability.\n\n\n\n\n\n\nArbitrary features\n\n\nNgram2vec supports numerous context features. The figure below illustrates some examples. What is more, adding new context features can be an easy task thanks to the decoupled design of ngram2vec. Contribution of more context features is welcomed.\n\n\nArbitrary models",
+            "title": "toolkit"
+        },
+        {
+            "location": "/toolkit/#ngram2vec-toolkit",
+            "text": "Ngram2vec is a toolkit aiming at training word vectors of various properties. Different from other popular word embedding toolkits which are designed for a specific representation method, ngram2vec supports arbitrary context features and models, and allows users to improve existing representation methods with no effort.The powerfulness of ngram2vec comes from its  decoupled  architecture, which is illustrated in figure below. To be more concrete, the  decoupled  architecture brings the following advantages:      extensibility.     reusability.",
+            "title": "Ngram2vec toolkit"
+        },
+        {
+            "location": "/toolkit/#arbitrary-features",
+            "text": "Ngram2vec supports numerous context features. The figure below illustrates some examples. What is more, adding new context features can be an easy task thanks to the decoupled design of ngram2vec. Contribution of more context features is welcomed.",
+            "title": "Arbitrary features"
+        },
+        {
+            "location": "/toolkit/#arbitrary-models",
+            "text": "",
+            "title": "Arbitrary models"
+        },
+        {
+            "location": "/vectors/",
+            "text": "Pre-trained Chinese word vectors\n\n\nThe word vectors trained by different representation methods, context features, and corpora.\n\n\n\n\n\n\n\n\nCorpus/representations-feature\n\n\nword2vec-word\n\n\nword2vec-ngram\n\n\nword2vec-character\n\n\nPPMI-word\n\n\nPPMI-ngram\n\n\nPPMI-character\n\n\n\n\n\n\n\n\n\n\nBaidu Encyclopedia \u767e\u5ea6\u767e\u79d1\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n\n\n\n\nWikipedia_zh \u4e2d\u6587\u7ef4\u57fa\u767e\u79d1\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n\n\n\n\nPeople's Daily News \u4eba\u6c11\u65e5\u62a5\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n\n\n\n\nSogou News \u641c\u72d7\u65b0\u95fb\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n\n\n\n\nFinancial News \u91d1\u878d\u65b0\u95fb\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n\n\n\n\nZhihu_QA \u77e5\u4e4e\u95ee\u7b54\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n\n\n\n\nWeibo \u5fae\u535a\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n\n\n\n\nLiterature \u6587\u5b66\u4f5c\u54c1\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n\n\n\n\nThe Four Categories \u56db\u5e93\u5168\u4e66\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n\n\n\n\nMixed-large\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n300\n\n\n\n\n\n\n\n\nThe word vectors trained upon different co-occurrence statistics. SGNS is used for training and Baidu Encyclopedia is used as training corpus. Target and context vectors are often called input and output vectors in some related papers. Notice that one can obtain vectors of arbitrary linguistic units beyond word. For example, one can obtain character and radical vectors by downloading context vectors in word-character and word-radical rows\n\n\n\n  \n\n    \nFeature\n\n \u00a0 \u00a0\nCo-occurrence type\n\n \u00a0 \u00a0\nPre-trained word vectors\n\n  \n\n  \n\n    \n word \n\n    \n word-word \n\n \u00a0 \u00a0\n \ntarget\n; \ncontext\n \n\n  \n\n  \n\n \u00a0 \u00a0\n ngram \n\n    \n word-bigram \n\n    \n \ntarget\n; \ncontext\n \n\n  \n\n    \n word-trigram \n\n    \n \ntarget\n; \ncontext\n \n\n  \n\n  \n\n    \n bigram-bigram \n\n    \n \ntarget\n; \ncontext\n \n\n  \n\n\n  \n\n \u00a0 \u00a0\n character \n\n \u00a0 \u00a0\n word-character (1) \n\n    \n \ntarget\n; \ncontext\n \n\n  \n\n    \n word-character (1-2) \n\n    \n \ntarget\n; \ncontext\n \n\n  \n\n  \n\n    \n word-character (1-4) \n\n    \n \ntarget\n; \ncontext\n \n\n  \n\n\n  \n\n \u00a0 \u00a0\n radical \n\n    \n radical \n\n    \n \ntarget\n; \ncontext\n \n\n  \n\n\n  \n\n \u00a0 \u00a0\n position \n\n \u00a0 \u00a0\n word-word(left/right) (1) \n\n    \n \ntarget\n; \ncontext\n \n\n  \n\n    \n word-word(distance) \n\n    \n \ntarget\n; \ncontext\n \n\n  \n\n\n  \n\n \u00a0 \u00a0\n global \n\n \u00a0 \u00a0\n word-text \n\n    \n \ntarget\n; \ncontext\n \n\n  \n\n\n  \n\n \u00a0 \u00a0\n syntactic feature \n\n \u00a0 \u00a0\n word-POS \n\n    \n \ntarget\n; \ncontext\n \n\n  \n\n    \n word-dependency \n\n \u00a0 \u00a0\n \ntarget\n; \ncontext",
+            "title": "vectors"
+        },
+        {
+            "location": "/vectors/#pre-trained-chinese-word-vectors",
+            "text": "The word vectors trained by different representation methods, context features, and corpora.     Corpus/representations-feature  word2vec-word  word2vec-ngram  word2vec-character  PPMI-word  PPMI-ngram  PPMI-character      Baidu Encyclopedia \u767e\u5ea6\u767e\u79d1  300  300  300  300  300  300    Wikipedia_zh \u4e2d\u6587\u7ef4\u57fa\u767e\u79d1  300  300  300  300  300  300    People's Daily News \u4eba\u6c11\u65e5\u62a5  300  300  300  300  300  300    Sogou News \u641c\u72d7\u65b0\u95fb  300  300  300  300  300  300    Financial News \u91d1\u878d\u65b0\u95fb  300  300  300  300  300  300    Zhihu_QA \u77e5\u4e4e\u95ee\u7b54  300  300  300  300  300  300    Weibo \u5fae\u535a  300  300  300  300  300  300    Literature \u6587\u5b66\u4f5c\u54c1  300  300  300  300  300  300    The Four Categories \u56db\u5e93\u5168\u4e66  300  300  300  300  300  300    Mixed-large  300  300  300  300  300  300     The word vectors trained upon different co-occurrence statistics. SGNS is used for training and Baidu Encyclopedia is used as training corpus. Target and context vectors are often called input and output vectors in some related papers. Notice that one can obtain vectors of arbitrary linguistic units beyond word. For example, one can obtain character and radical vectors by downloading context vectors in word-character and word-radical rows  \n   \n     Feature \n \u00a0 \u00a0 Co-occurrence type \n \u00a0 \u00a0 Pre-trained word vectors \n   \n   \n      word  \n      word-word  \n \u00a0 \u00a0   target ;  context   \n   \n   \n \u00a0 \u00a0  ngram  \n      word-bigram  \n       target ;  context   \n   \n      word-trigram  \n       target ;  context   \n   \n   \n      bigram-bigram  \n       target ;  context   \n   \n\n   \n \u00a0 \u00a0  character  \n \u00a0 \u00a0  word-character (1)  \n       target ;  context   \n   \n      word-character (1-2)  \n       target ;  context   \n   \n   \n      word-character (1-4)  \n       target ;  context   \n   \n\n   \n \u00a0 \u00a0  radical  \n      radical  \n       target ;  context   \n   \n\n   \n \u00a0 \u00a0  position  \n \u00a0 \u00a0  word-word(left/right) (1)  \n       target ;  context   \n   \n      word-word(distance)  \n       target ;  context   \n   \n\n   \n \u00a0 \u00a0  global  \n \u00a0 \u00a0  word-text  \n       target ;  context   \n   \n\n   \n \u00a0 \u00a0  syntactic feature  \n \u00a0 \u00a0  word-POS  \n       target ;  context   \n   \n      word-dependency  \n \u00a0 \u00a0   target ;  context",
+            "title": "Pre-trained Chinese word vectors"
+        },
+        {
+            "location": "/evaluation/",
+            "text": "Welcome to Chinese word vector service\n\n\nFor full documentation visit \nmkdocs.org\n.\n\n\nCorpus\n\n\n\n\nmkdocs new [dir-name]\n - Create a new project.\n\n\nmkdocs serve\n - Start the live-reloading docs server.\n\n\nmkdocs build\n - Build the documentation site.\n\n\nmkdocs help\n - Print this help message.\n\n\n\n\nNgram2vec toolkit\n\n\nmkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.  asdasdasd\n\n\n\nArbitrary context features\n\n\nWord\n\n\nNgram\n\n\nCharacter\n\n\nArbitrary models\n\n\nBenchmark (Chinese analogical questions)\n\n\nEvaluation toolkit\n\n\nPre-trained Chinese word vectors",
+            "title": "evaluation"
+        },
+        {
+            "location": "/evaluation/#welcome-to-chinese-word-vector-service",
+            "text": "For full documentation visit  mkdocs.org .",
+            "title": "Welcome to Chinese word vector service"
+        },
+        {
+            "location": "/evaluation/#corpus",
+            "text": "mkdocs new [dir-name]  - Create a new project.  mkdocs serve  - Start the live-reloading docs server.  mkdocs build  - Build the documentation site.  mkdocs help  - Print this help message.",
+            "title": "Corpus"
+        },
+        {
+            "location": "/evaluation/#ngram2vec-toolkit",
+            "text": "mkdocs.yml    # The configuration file.\ndocs/\n    index.md  # The documentation homepage.\n    ...       # Other markdown pages, images and other files.  asdasdasd",
+            "title": "Ngram2vec toolkit"
+        },
+        {
+            "location": "/evaluation/#arbitrary-context-features",
+            "text": "",
+            "title": "Arbitrary context features"
+        },
+        {
+            "location": "/evaluation/#word",
+            "text": "",
+            "title": "Word"
+        },
+        {
+            "location": "/evaluation/#ngram",
+            "text": "",
+            "title": "Ngram"
+        },
+        {
+            "location": "/evaluation/#character",
+            "text": "",
+            "title": "Character"
+        },
+        {
+            "location": "/evaluation/#arbitrary-models",
+            "text": "",
+            "title": "Arbitrary models"
+        },
+        {
+            "location": "/evaluation/#benchmark-chinese-analogical-questions",
+            "text": "",
+            "title": "Benchmark (Chinese analogical questions)"
+        },
+        {
+            "location": "/evaluation/#evaluation-toolkit",
+            "text": "",
+            "title": "Evaluation toolkit"
+        },
+        {
+            "location": "/evaluation/#pre-trained-chinese-word-vectors",
+            "text": "",
+            "title": "Pre-trained Chinese word vectors"
+        }
+    ]
+}
