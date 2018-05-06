@@ -93,7 +93,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="http://www.baidu.com">300d</a></td>
     </tr>
     <tr  align="center">
-      <td>Complete Library in Four Sections 四库全书</td>
+      <td>Complete Library in Four Sections<br />四库全书</td>
       <td><a href="http://www.baidu.com">300d</a></td>
       <td><a href="http://www.baidu.com">300d</a></td>
       <td><a href="http://www.baidu.com">300d</a></td>
@@ -170,7 +170,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="http://www.baidu.com">300d</a></td>
     </tr>
     <tr  align="center">
-      <td>Complete Library in Four Sections 四库全书</td>
+      <td>Complete Library in Four Sections<br />四库全书</td>
       <td><a href="http://www.baidu.com">300d</a></td>
       <td><a href="http://www.baidu.com">300d</a></td>
       <td><a href="http://www.baidu.com">300d</a></td>
