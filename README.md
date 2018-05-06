@@ -93,7 +93,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="http://www.baidu.com">300d</a></td>
     </tr>
     <tr  align="center">
-      <td>The Four Categories 四库全书</td>
+      <td>Complete Library in Four Sections 四库全书</td>
       <td><a href="http://www.baidu.com">300d</a></td>
       <td><a href="http://www.baidu.com">300d</a></td>
       <td><a href="http://www.baidu.com">300d</a></td>
@@ -170,7 +170,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="http://www.baidu.com">300d</a></td>
     </tr>
     <tr  align="center">
-      <td>The Four Categories 四库全书</td>
+      <td>Complete Library in Four Sections 四库全书</td>
       <td><a href="http://www.baidu.com">300d</a></td>
       <td><a href="http://www.baidu.com">300d</a></td>
       <td><a href="http://www.baidu.com">300d</a></td>
@@ -301,7 +301,7 @@ We made great efforts to collect corpus across various domains. All text data ar
 		<td><b>Description</b></td>
 	</tr>
 	<tr align="center">
-		<td>Baidu_baike<br />百度百科</td>
+		<td>Baidu Encyclopedia<br />百度百科</td>
 		<td>4.3G</td>
 		<td>745M</td>
 		<td>271K</td>
@@ -322,18 +322,25 @@ We made great efforts to collect corpus across various domains. All text data ar
 		<td>News data from People's Daily(1946-2017)<br />http://data.people.com.cn/</td>
 	</tr>
 	<tr align="center">
-		<td>Sogou news<br />搜狗新闻</td>
+		<td>Sogou News<br />搜狗新闻</td>
 		<td>4.0G</td>
 		<td>657M</td>
 		<td>176K</td>
 		<td>News data provided by Sogou labs<br />http://www.sogou.com/labs/</td>
 	</tr>
 	<tr align="center">
-		<td>Zhihu QA<br />知乎问答</td>
+		<td>Zhihu_QA<br />知乎问答</td>
 		<td>2.2G</td>
 		<td>384M</td>
 		<td>123K</td>
 		<td>Chinese QA data from<br />https://www.zhihu.com/</td>
+	</tr>
+	<tr align="center">
+		<td>Weibo<br />微博</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td>China-based microblogs from<br />https://weibo.com/</td>
 	</tr>
 	<tr align="center">
 		<td>Literature<br />文学作品</td>
@@ -343,18 +350,11 @@ We made great efforts to collect corpus across various domains. All text data ar
 		<td>8599 modern Chinese literature works</td>
 	</tr>
 	<tr align="center">
-		<td>The Four Categories<br />四库全书</td>
+		<td>Complete Library in Four Sections<br />四库全书</td>
 		<td></td>
 		<td></td>
 		<td></td>
-		<td></td>
-	</tr>
-	<tr align="center">
-		<td>Weibo<br />微博</td>
-		<td></td>
-		<td></td>
-		<td></td>
-		<td>China-based microblogs from<br />https://weibo.com/</td>
+		<td>It was the largest collection of texts in pre-modern China.</td>
 	</tr>
 	<tr align="center">
 		<td>Mixed-large<br />综合</td>
