@@ -180,7 +180,7 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
 </table>
 
-<sup>\*</sup>Character embeddings are provided, since most of Hanzi are word in the archaic Chinese.
+<sup>\*</sup>Character embeddings are provided, since most of Hanzi are words in the archaic Chinese.
 
 ### Various Co-occurrence Information
 
