@@ -388,6 +388,7 @@ Please cite the paper, if using these embeddings and CA8 dataset.
 
 Shen Li, Zhe Zhao, Renfen Hu, Wensi Li, Tao Liu, Xiaoyong Du, <em>Analogical Reasoning on Chinese Morphological and Semantic Relations</em>, ACL 2018.
 
+<!-- 
 ```
 @InProceedings{shen2018analogical,
   title={Analogical Reasoning on Chinese Morphological and Semantic Relations},
@@ -395,3 +396,4 @@ Shen Li, Zhe Zhao, Renfen Hu, Wensi Li, Tao Liu, Xiaoyong Du, <em>Analogical Rea
   year={2018},
 }
 ```
+ -->
