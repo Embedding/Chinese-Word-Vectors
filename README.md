@@ -94,10 +94,7 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Complete Library in Four Sections<br />四库全书</td>
-      <td><a href="http://www.baidu.com">300d</a></td>
-      <td><a href="http://www.baidu.com">300d</a></td>
-      <td><a href="http://www.baidu.com">300d</a></td>
-      <td><a href="http://www.baidu.com">300d</a></td>
+      <td colspan="4"><a href="http://www.baidu.com">300d</a><sup>*</sup></td>
     </tr>
     <tr  align="center">
       <td>Mixed-large 综合</td>
@@ -171,10 +168,8 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Complete Library in Four Sections<br />四库全书</td>
-      <td><a href="http://www.baidu.com">300d</a></td>
-      <td><a href="http://www.baidu.com">300d</a></td>
-      <td><a href="http://www.baidu.com">300d</a></td>
-      <td><a href="http://www.baidu.com">300d</a></td>
+      <td colspan="4"><a href="http://www.baidu.com">300d</a><sup>*</sup></td>
+    </tr>
     </tr>
     <tr  align="center">
       <td>Mixed-large 综合</td>
@@ -184,6 +179,8 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="http://www.baidu.com">300d</a></td>
     </tr>
 </table>
+
+<sup>\*</sup>Character embeddings are provided, since most of Hanzi are word in the archaic Chinese.
 
 ### Various Co-occurrence Information
 
@@ -387,4 +384,14 @@ $ python ana_eval_sparse.py -v <vector.txt> -a CA8/semantic.txt
 ```
 
 ## Reference
+Please cite the paper, if using these embeddings and CA8 dataset.
+
 Shen Li, Zhe Zhao, Renfen Hu, Wensi Li, Tao Liu, Xiaoyong Du, <em>Analogical Reasoning on Chinese Morphological and Semantic Relations</em>, ACL 2018.
+
+```
+@InProceedings{shen2018analogical,
+  title={Analogical Reasoning on Chinese Morphological and Semantic Relations},
+  author={Shen, Li and Zhe, Zhao and Renfen, Hu and Wensi, Li and Tao, Liu and Xiaoyong, Du},
+  year={2018},
+}
+```
