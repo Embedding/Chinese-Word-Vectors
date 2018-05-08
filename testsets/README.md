@@ -508,6 +508,6 @@ Affixation is a morphological process whereby a bound morpheme (an affix) is att
 ##  <a name="reference"></a>Reference
 Shen Li, Zhe Zhao, Renfen Hu, Wensi Li, Tao Liu, Xiaoyong Du, <em>Analogical Reasoning on Chinese Morphological and Semantic Relations</em>, ACL 2018.
 
-Xinxiong Chen, Lei Xu, Zhiyuan Liu, Maosong Sun, and Huan-Bo Luan. 2015. Joint learning of character and word embeddings. In IJCAI. pages 1236–1242.
+Xinxiong Chen, Lei Xu, Zhiyuan Liu, Maosong Sun, and Huanbo Luan. 2015. Joint learning of character and word embeddings. In IJCAI. pages 1236–1242.
 
 Yuehua Liu, Wenyu Pan, and Wei Gu. 2001. Practical grammar of modern Chinese. The Commercial Press.
