@@ -369,12 +369,14 @@ We made great efforts to collect corpus across various domains. All text data ar
 	</tr>
   <tr align="center">
     <td>Complete Library in Four Sections<br />四库全书</td>
-    <td></td>
-    <td></td>
-    <td></td>
+    <td>1.5G</td>
+    <td>714M</td>
+    <td>21.8K</td>
     <td>It was the largest collection of texts in pre-modern China.</td>
   </tr>
 </table>
+
+All words are concerned, including low frequency words.
 
 ## Toolkits
 All word vectors are trained by [ngram2vec](https://github.com/zhezhaoa/ngram2vec/) toolkit. Ngram2vec toolkit is a superset of [word2vec](https://github.com/svn2github/word2vec) and [fasttext](https://github.com/facebookresearch/fastText) toolkit, where arbitrary context features and models are supported.
