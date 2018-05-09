@@ -313,58 +313,58 @@ We made great efforts to collect corpus across various domains. All text data ar
 	</tr>
 	<tr align="center">
 		<td>Baidu Encyclopedia<br />百度百科</td>
-		<td>4.3G</td>
+		<td>4.1G</td>
 		<td>745M</td>
-		<td>271K</td>
+		<td>5422K</td>
 		<td>Chinese Encyclopedia data from<br />https://baike.baidu.com/</td>
 	</tr>
 	<tr align="center">
 		<td>Wikipedia_zh<br />中文维基百科</td>
-		<td>1.2G</td>
+		<td>1.3G</td>
 		<td>223M</td>
-		<td>133K</td>
+		<td>2129K</td>
 		<td>Chinese Wikipedia data from<br />https://dumps.wikimedia.org/</td>
 	</tr>
 	<tr align="center">
 		<td>People's Daily News<br />人民日报</td>
-		<td>4.2G</td>
-		<td>669M</td>
-		<td>171K</td>
+		<td>3.9G</td>
+		<td>668M</td>
+		<td>1664K</td>
 		<td>News data from People's Daily(1946-2017)<br />http://data.people.com.cn/</td>
 	</tr>
 	<tr align="center">
 		<td>Sogou News<br />搜狗新闻</td>
-		<td>4.0G</td>
-		<td>657M</td>
-		<td>176K</td>
+		<td>3.7G</td>
+		<td>649M</td>
+		<td>1226K</td>
 		<td>News data provided by Sogou labs<br />http://www.sogou.com/labs/</td>
 	</tr>
 	<tr align="center">
 		<td>Zhihu_QA<br />知乎问答</td>
-		<td>2.2G</td>
+		<td>2.1G</td>
 		<td>384M</td>
-		<td>123K</td>
+		<td>1117K</td>
 		<td>Chinese QA data from<br />https://www.zhihu.com/</td>
 	</tr>
 	<tr align="center">
 		<td>Weibo<br />微博</td>
 		<td>0.73G</td>
 		<td>136M</td>
-		<td></td>
+		<td>850K</td>
 		<td>China-based microblogs from<br />https://weibo.com/</td>
 	</tr>
 	<tr align="center">
 		<td>Literature<br />文学作品</td>
 		<td>0.93G</td>
-		<td></td>
-		<td></td>
+		<td>177M</td>
+		<td>702K</td>
 		<td>8599 modern Chinese literature works</td>
 	</tr>
 	<tr align="center">
 		<td>Mixed-large<br />综合</td>
-		<td></td>
-		<td></td>
-		<td></td>
+		<td>16.4G</td>
+    <td>2982M</td>
+    <td>8651K</td>
 		<td>We build the large corpus by merging the above corpora.</td>
 	</tr>
   <tr align="center">
