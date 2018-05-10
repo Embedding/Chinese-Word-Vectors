@@ -52,23 +52,23 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Wikipedia_zh 中文维基百科</td>
-      <td><a href="https://drive.google.com/open?id=1DFp6wPgnhErAh3fvVPfFUW5a89Abelu2">300d</a></td>
-      <td><a href="https://drive.google.com/open?id=1tXs-WRoYq_KJ5m9q1IPMsbr354FNTSye">300d</a></td>
-      <td><a href="https://drive.google.com/open?id=1cSJI28rDqZv1osKmbzgHev8vyUFeiF8q">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1bqtoXFJTawJ-0d0-E_SXbQ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1aQGcEX2GiIkplTKfwaA8Yw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1sgj5K1OjqSbIj02MJ3DSYw">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>People's Daily News 人民日报</td>
-      <td><a href="https://drive.google.com/open?id=1RawXmSaUgV6DUYI7VFsL_yAuNeC9ZUuw">300d</a></td>
-      <td><a href="https://drive.google.com/open?id=1EMPz7vOi604dpZJcAbLR7LJeBCjoh06b">300d</a></td>
-      <td><a href="https://drive.google.com/open?id=1ewkHbrRiwAD_vtyTDJKYaZaP4xl3ZN_T">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/17er0CP00DUpH40lNsIKW1g">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1vdPSI6fOo9ALS6HNhNjezA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1JYVG5JJz-LkIQRh-Y2k77w">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Sogou News 搜狗新闻</td>
-      <td><a href="https://drive.google.com/open?id=1QgJRj8UpzPT5gNWeiFvTL2zoQyV2mnYM">300d</a></td>
-      <td><a href="https://drive.google.com/open?id=1LleO2MRION22ZUV4X2HT8QgMaz53pSUj">300d</a></td>
-      <td><a href="https://drive.google.com/open?id=197lVSLzzdjo4ZiES4AKBHUTm55h44pCO">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1UyHTRF7LOqd3W9nehoS_xg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1niyJ2DtrAViSQA1VqdKcNA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1VJDR5r5pZ3mSzUeb454CMg">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
@@ -80,9 +80,9 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Zhihu_QA 知乎问答 </td>
-      <td><a href="https://drive.google.com/open?id=1MtNHTqcXTQPfzzjH6wnkZT0ReYztgQDP">300d</a></td>
-      <td><a href="https://drive.google.com/open?id=1CiuGT2KlkTRyrA1D7f6WGcbdKJGvKlk-">300d</a></td>
-      <td><a href="https://drive.google.com/open?id=1-E0LR5AzkH3KzHlPu9eJjzMtmNVYTDKh">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1wn3a3Vo5eA_Hxdbbxff-rw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1SnefWeGHQhw_yG14JYDZiw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1wDlK9oPVESvScmXqYtQvvw">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
@@ -133,23 +133,23 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Wikipedia_zh 中文维基百科</td>
-      <td><a href="https://drive.google.com/open?id=1GKUzG9A-IWXhxa8HIrIAxKk9Nn12HWns">300d</a></td>
-      <td><a href="https://drive.google.com/open?id=1JISWU_atLsFxq0Tg-ApAqxrTn4IzddPu">300d</a></td>
-      <td><a href="https://drive.google.com/open?id=1jfgu80Bto_QRQuANDGuxFsW-1JnwPsMX">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1m4Yppo2JpV4_0qZazPqcFw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1-_UB1CV96WQN0yp3v9kcOA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/12YZmPb8fZZwOzn9kI6hb0g">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>People's Daily News 人民日报</td>
-      <td><a href="https://drive.google.com/open?id=1b_eEE9LxRGL3ylhpi7wJsJsn72Jk0oKx">300d</a></td>
-      <td><a href="https://drive.google.com/open?id=12Qz7TSpilEAvPMWHef5aLmve3zaXAaea">300d</a></td>
-      <td><a href="https://drive.google.com/open?id=1vfJqMjTkZ6l5e8oUWdGI7wDQopJ8nF4W">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1FN2BpELh1jzebnr4q0_60A">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1mHkVFJkdYQkzrf_-yzxIhg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1WW2tlEdQBufjj9ubWFICHg">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Sogou News 搜狗新闻</td>
-      <td><a href="https://drive.google.com/open?id=19AMwwQMKgiw0sSKUJPgGO-Wp9zBu9cei">300d</a></td>
-      <td><a href="https://drive.google.com/open?id=1FKvOulnEArVwlo1baXdF22zMM6HZPqLJ">300d</a></td>
-      <td><a href="https://drive.google.com/open?id=1F-Q4pocbrSlTDdTxxvOQpFPvIAx0yIcZ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/19FJqCtYWBU4SZUYmCzegvA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/13N7yFouswT1c9nng57sbDg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1crPFyGwR5YHA33C5R_WTpQ">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
@@ -161,9 +161,9 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Zhihu_QA 知乎问答 </td>
-      <td><a href="https://drive.google.com/open?id=1eRzTakKdQ2gi9iMZY3TPo9wr3Nq5p0Mq">300d</a></td>
-      <td><a href="https://drive.google.com/open?id=1o2Q5f-CLMZ1ZzZCnoV1bkyhtT5Uw2dZd">300d</a></td>
-      <td><a href="https://drive.google.com/open?id=1L3SmHg5y0vYaXPzQabO55_XUtNoU4BYI">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1FZBtQJh4LzSzSrwGcT7mpA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1jUCSuOFqgbY_DCWV6WwgxQ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1TQ8tWlGfEFaSutCJVjPLWQ">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
@@ -215,15 +215,15 @@ All vectors are trained by SGNS on Baidu Encyclopedia.
   <tr align="center">
   	<td rowspan="1">Word</td>
     <td>Word → Word</td>
-    <td>300d</td>
- 	  <td><a href="https://drive.google.com/open?id=1k1D97nqM6cSNP3d1xmsb2qHuRmcHGHv4">300d</a></td>
+    <td><a href="https://pan.baidu.com/s/1P_jpFuPI6K36PlmOLvdRJA">300d</a></td>
+ 	  <td><a href="https://pan.baidu.com/s/1XlOOon_NQtnhSKYbgwXEtA">300d</a></td>
   </tr>
 
   <tr align="center">
     <td rowspan="3">Ngram</td>
     <td>Word → Ngram (1-2)</td>
-    <td><a href="https://drive.google.com/open?id=1PCIr-HbNkycvkghpA-pCKrwRmehM1-Cw">300d</a></td>
- 	  <td><a href="https://drive.google.com/open?id=1HeXX7WINq0w-Xmg4Q2E0sA9dXXDRMIy9">300d</a></td>
+    <td><a href="https://pan.baidu.com/s/1C59ebYO14o1otnt3CK5cVA">300d</a></td>
+ 	  <td><a href="https://pan.baidu.com/s/1gdCpq0nsAhoFxKqctyOtzA">300d</a></td>
   </tr>
   <tr align="center">
     <td>Word → Ngram (1-3)</td>
@@ -232,25 +232,25 @@ All vectors are trained by SGNS on Baidu Encyclopedia.
   </tr>
   <tr align="center">
     <td>Ngram (1-2) → Ngram (1-2)</td>
-    <td><a href="https://drive.google.com/open?id=1BUrqKqTyAPYkFNqqN8lANBB2G9rKkBPn">300d</a></td>
- 	  <td>300d</td>
+    <td><a href="https://pan.baidu.com/s/1Fdf4OXZoG138aLZMBsNVnw">300d</a></td>
+ 	  <td><a href="https://pan.baidu.com/s/1bMxYF7mwiCi_TQx799FhEQ">300d</a></td>
   </tr>
   
   <tr align="center">
     <td rowspan="3">Character</td>
     <td>Word → Character (1)</td>
- 	  <td><a href="https://drive.google.com/open?id=13y7U_rEG1H0L-nyHnyOEeBGrrn8pOPLu">300d</a></td>
-    <td><a href="https://drive.google.com/open?id=1rW4ovVypwPEqZ0-sVsbjbofnS_1HlK5L">300d</a></td>
+ 	  <td><a href="https://pan.baidu.com/s/1QoWF_Xe5MQHT0jG8Q95RZg">300d</a></td>
+    <td><a href="https://pan.baidu.com/s/1GNdDPjgZuq0ES9xE_ASNxw">300d</a></td>
   </tr>
   <tr align="center">
     <td>Word → Character (1-2)</td>
- 	  <td><a href="https://drive.google.com/open?id=1swONz0WouTFYNXmylKHWswu65SeB5mUX">300d</a></td>
-    <td><a href="https://drive.google.com/open?id=10ShlZXvZ3sr_A81hxFYg7khAkqwyGBIw">300d</a></td>
+ 	  <td><a href="https://pan.baidu.com/s/1MsNSYjuglTROrojd9Ce2Xg">300d</a></td>
+    <td><a href="https://pan.baidu.com/s/1ewUYm01u0K_xrg3tDJ9kDw">300d</a></td>
   </tr>
   <tr align="center">
     <td>Word → Character (1-4)</td>
-    <td><a href="https://drive.google.com/open?id=1PgsUXVj-SrtMn8GJd-0oLEwCf0qmIfUx">300d</a></td>
- 	  <td><a href="https://drive.google.com/open?id=1kGz1qa8g71EyI7y-EIYsQy-4fx2bVowD">300d</a></td>
+    <td><a href="https://pan.baidu.com/s/1JAfw3-NQoWmSKiwDrCJXhg">300d</a></td>
+ 	  <td><a href="https://pan.baidu.com/s/1t2q8xLxljgy6ekOwNZaKeA">300d</a></td>
   </tr>
   
   <tr align="center">
@@ -263,13 +263,13 @@ All vectors are trained by SGNS on Baidu Encyclopedia.
   <tr align="center">
     <td rowspan="2">Position</td>
     <td>Word → Word (left/right)</td>
-    <td><a href="https://drive.google.com/open?id=1gVuG-eaeA2pZWyY0Zi-KlVwHcrmOjYEk">300d</a></td>
- 	  <td><a href="https://drive.google.com/open?id=1SI_MSvgNC9tbXxr6fZUfbzhGi6LxCE4R">300d</a></td>
+    <td><a href="https://pan.baidu.com/s/1bS-T-pXJCOxueuE-PDbYpA">300d</a></td>
+ 	  <td><a href="https://pan.baidu.com/s/1_jOOm6YxZhBEjPL5aP8ezQ">300d</a></td>
   </tr>
   <tr align="center">
     <td>Word → Word (distance)</td>
-    <td><a href="https://drive.google.com/open?id=1Z6ui7GnsBfLh8DfKSy27Jb2EjOlDsvIl">300d</a></td>
- 	  <td><a href="https://drive.google.com/open?id=1c0nnuC-TqpNAbg6wc1-Yx_6rtlouhOVl">300d</a></td>
+    <td><a href="https://pan.baidu.com/s/1gnoAeaYGQrMWb-etfWSIQA">300d</a></td>
+ 	  <td><a href="https://pan.baidu.com/s/1DrCNkHJgeh0QBWKWvouboQ">300d</a></td>
   </tr>
   
   <tr align="center">
@@ -339,6 +339,13 @@ We made great efforts to collect corpus across various domains. All text data ar
 		<td>1226K</td>
 		<td>News data provided by Sogou labs<br />http://www.sogou.com/labs/</td>
 	</tr>
+  <tr align="center">
+    <td>Financial News<br />金融新闻</td>
+    <td>6.2G</td>
+    <td>1055M</td>
+    <td>2785K</td>
+    <td>News data grabbed from the Internet</td>
+  </tr>
 	<tr align="center">
 		<td>Zhihu_QA<br />知乎问答</td>
 		<td>2.1G</td>
@@ -362,9 +369,9 @@ We made great efforts to collect corpus across various domains. All text data ar
 	</tr>
 	<tr align="center">
 		<td>Mixed-large<br />综合</td>
-		<td>16.4G</td>
-    <td>2982M</td>
-    <td>8651K</td>
+		<td>22.6G</td>
+    <td>4037M</td>
+    <td>10653K</td>
 		<td>We build the large corpus by merging the above corpora.</td>
 	</tr>
   <tr align="center">
