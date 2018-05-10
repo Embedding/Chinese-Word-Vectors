@@ -344,7 +344,7 @@ We made great efforts to collect corpus across various domains. All text data ar
     <td>6.2G</td>
     <td>1055M</td>
     <td>2785K</td>
-    <td>News data grabbed from the Internet</td>
+    <td>Financial news collected from multiple news websites</td>
   </tr>
 	<tr align="center">
 		<td>Zhihu_QA<br />知乎问答</td>
@@ -358,7 +358,7 @@ We made great efforts to collect corpus across various domains. All text data ar
 		<td>0.73G</td>
 		<td>136M</td>
 		<td>850K</td>
-		<td>China-based microblogs from<br />https://weibo.com/</td>
+		<td>Chinese microblog data provided by NLPIR Lab<br />http://www.nlpir.org/download/weibo.7z</td>
 	</tr>
 	<tr align="center">
 		<td>Literature<br />文学作品</td>
@@ -379,7 +379,7 @@ We made great efforts to collect corpus across various domains. All text data ar
     <td>1.5G</td>
     <td>714M</td>
     <td>21.8K</td>
-    <td>It was the largest collection of texts in pre-modern China.</td>
+    <td>The largest collection of texts in pre-modern China.</td>
   </tr>
 </table>
 
