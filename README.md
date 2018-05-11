@@ -395,12 +395,12 @@ The quality of word vectors is often evaluated by analogy question tasks. In thi
 ## Evaluation Toolkit
 We present an evaluation toolkit in [**evaluation**](https://github.com/Embedding/Chinese-Word-Vectors/tree/master/evaluation) folder. 
 
-Run the following codes to evaluate your trained dense vectors.
+Run the following codes to evaluate dense vectors.
 ```
 $ python ana_eval_dense.py -v <vector.txt> -a CA8/morphological.txt
 $ python ana_eval_dense.py -v <vector.txt> -a CA8/semantic.txt
 ```
-Run the following codes to evaluate your sparse vectors.
+Run the following codes to evaluate sparse vectors.
 ```
 $ python ana_eval_sparse.py -v <vector.txt> -a CA8/morphological.txt
 $ python ana_eval_sparse.py -v <vector.txt> -a CA8/semantic.txt
