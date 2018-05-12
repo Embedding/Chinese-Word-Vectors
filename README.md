@@ -33,11 +33,13 @@ Chinese Word Vectors trained with different representations, context features, a
 
 <table align="center">
     <tr align="center">
-        <td></td>
-        <td colspan="4"><b>Word2ec / Skip-Gram with Negative Sampling (SGNS)</b></td>
+        <td colspan="5"><b>Word2ec / Skip-Gram with Negative Sampling (SGNS)</b></td>
+    </tr>
+    <tr align="center">
+        <td rowspan="2">Corpus</td>
+        <td colspan="4">Context Features</td>
     </tr>
     <tr  align="center">
-      <td>Corpus</td>
       <td>Word</td>
       <td>Word + Ngram</td>
       <td>Word + Character</td>
@@ -114,11 +116,13 @@ Chinese Word Vectors trained with different representations, context features, a
 
 <table align="center">
     <tr align="center">
-        <td></td>
-        <td colspan="4"><b>Positive Pointwise Mutual Information (PPMI)</b></td>
+        <td colspan="5"><b>Positive Pointwise Mutual Information (PPMI)</b></td>
+    </tr>
+    <tr align="center">
+        <td rowspan="2">Corpus</td>
+        <td colspan="4">Context Features</td>
     </tr>
     <tr  align="center">
-      <td>Corpus</td>
       <td>Word</td>
       <td>Word + Ngram</td>
       <td>Word + Character</td>
