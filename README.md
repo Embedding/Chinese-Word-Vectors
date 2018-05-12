@@ -103,7 +103,10 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Complete Library in Four Sections<br />四库全书<sup>*</sup></td>
-      <td colspan="4">300d</td>
+      <td>300d</td>
+      <td>300d</td>
+      <td>NAN</td>
+      <td>NAN</td>
     </tr>
     <tr  align="center">
       <td>Mixed-large 综合</td>
@@ -186,7 +189,10 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Complete Library in Four Sections<br />四库全书<sup>*</sup></td>
-      <td colspan="4">300d</td>
+      <td>300d</td>
+      <td>300d</td>
+      <td>NAN</td>
+      <td>NAN</td>
     </tr>
     </tr>
     <tr  align="center">
