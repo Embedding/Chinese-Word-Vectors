@@ -18,7 +18,7 @@ def load_matrix(f_path):
                 words_num = int(line.strip().split()[0])
                 dim = int(line.strip().split()[1])
                 continue
-            tokens = line.strip().split()
+            tokens = line.rstrip().split()
             iw.append(tokens[0])
             vector = tokens[1:]
             for v in vector:

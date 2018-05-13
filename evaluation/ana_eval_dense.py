@@ -19,7 +19,7 @@ def read_vectors(path, topn):  # read top n word vectors, i.e. top is 10000
                 dim = int(line.strip().split()[1])
                 continue
             lines_num += 1
-            tokens = line.strip().split(' ')
+            tokens = line.rstrip().split(' ')
             vectors[tokens[0]] = np.asarray([float(x) for x in tokens[1:]])
             iw.append(tokens[0])
             if topn != 0 and lines_num >= topn:
