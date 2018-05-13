@@ -96,8 +96,8 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Literature 文学作品</td>
-      <td>300d</td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1ndWi40zwcRW8JJQzoO-1Mw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/158yIDYQUppWVM6H9YmM5iQ">300d</a></td>
       <td>300d</td>
       <td>300d</td>
     </tr>
@@ -182,8 +182,8 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Literature 文学作品</td>
-      <td>300d</td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1Rm9rB2JP9Phm6GrpZVy-Wg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1YzMG8ffRsJZroZltf4Hm9A">300d</a></td>
       <td>300d</td>
       <td>300d</td>
     </tr>
