@@ -18,12 +18,14 @@ Besides dense word vectors (trained with SGNS), we also provide sparse vectors (
     <td><b>Dynamic Window</b></td>
     <td><b>Sub-sampling</b></td>
     <td><b>Low-Frequency Word</b></td>
+    <td><b>Iteration</b></td>
   </tr>
   <tr align="center">
     <td>5</td>
     <td>Yes</td>
     <td>1e-5</td>
     <td>10</td>
+    <td>5</td>
   </tr>
 </table>
 
