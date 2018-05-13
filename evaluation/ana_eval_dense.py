@@ -6,6 +6,7 @@ import numpy as np
 import argparse
 import random
 
+
 def read_vectors(path, topn):  # read top n word vectors, i.e. top is 10000
     lines_num, dim = 0, 0
     vectors = {}
@@ -27,6 +28,7 @@ def read_vectors(path, topn):  # read top n word vectors, i.e. top is 10000
     for i, w in enumerate(iw):
         wi[w] = i
     return vectors, iw, wi, dim
+
 
 def read_analogy(path, iw):
     analogy = {}
@@ -63,10 +65,12 @@ def read_analogy(path, iw):
                 analogy[t]['wi'][w] = i
         return analogy
 
+
 def normalize(matrix):
     norm = np.sqrt(np.sum(matrix * matrix, axis=1))
     matrix = matrix / norm[:, np.newaxis]
     return matrix
+
 
 def guess(sims, analogy, analogy_type, iw, wi, word_a, word_b, word_c):
     sim_a = sims[analogy[analogy_type]["wi"][word_a]]
@@ -85,6 +89,7 @@ def guess(sims, analogy, analogy_type, iw, wi, word_a, word_b, word_c):
     mul_sim[wi[word_c]] = 0
     guess_mul = iw[np.nanargmax(mul_sim)]
     return guess_add, guess_mul
+
 
 def main():
     vectors_path = "embedding_sample/dense_small.txt"
@@ -128,11 +133,11 @@ def main():
         if analogy[analogy_type]["seen"] == 0:
             acc_add = 0
             acc_mul = 0
-            print (analogy_type + " add/mul: " +  str(round(0.0, 3)) + "/" + str(round(0.0, 3)))
+            print(analogy_type + " add/mul: " + str(round(0.0, 3)) + "/" + str(round(0.0, 3)))
         else:
             acc_add = float(correct_add_num) / analogy[analogy_type]["seen"]
             acc_mul = float(correct_mul_num) / analogy[analogy_type]["seen"]
-            print (analogy_type + " add/mul: " + str(round(acc_add, 3)) + "/" + str(round(acc_mul, 3)))
+            print(analogy_type + " add/mul: " + str(round(acc_add, 3)) + "/" + str(round(acc_mul, 3)))
         # Store the results
         results[analogy_type] = {}
         results[analogy_type]["coverage"] = [cov,analogy[analogy_type]["seen"], analogy[analogy_type]["total"]]
@@ -144,13 +149,15 @@ def main():
         correct_add_num += results[analogy_type]["accuracy_add"][1]
         correct_mul_num += results[analogy_type]["accuracy_mul"][1]
         seen += results[analogy_type]["coverage"][1]
-    if seen == 0:
-        print ("Total accuracy (add): " + str(round(0.0, 3)))
-        print ("Total accuracy (mul): " + str(round(0.0, 3)))
-    else:
-        print ("Total accuracy (add): " + str(round(float(correct_add_num)/seen, 3)))
-        print ("Total accuracy (mul): " + str(round(float(correct_mul_num)/seen, 3)))
+
     # print results
+    if seen == 0:
+        print("Total accuracy (add): " + str(round(0.0, 3)))
+        print("Total accuracy (mul): " + str(round(0.0, 3)))
+    else:
+        print("Total accuracy (add): " + str(round(float(correct_add_num)/seen, 3)))
+        print("Total accuracy (mul): " + str(round(float(correct_mul_num)/seen, 3)))
+
 
 if __name__ == '__main__':
     main()

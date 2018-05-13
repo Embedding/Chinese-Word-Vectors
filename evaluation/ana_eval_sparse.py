@@ -7,6 +7,7 @@ import argparse
 import random
 from scipy.sparse import dok_matrix, csr_matrix
 
+
 def load_matrix(f_path):
     with open(f_path, "r") as f:
         row, col, data, iw = [], [], [], []
@@ -35,10 +36,12 @@ def load_matrix(f_path):
         matrix = csr_matrix((data, (row, col)), shape=(words_num, dim))
         return matrix, iw, wi
 
+
 def load_vocabulary(path):
     with open(path) as f:
         vocab = [line.strip().split()[0] for line in f if len(line) > 0]
     return dict([(a, i) for i, a in enumerate(vocab)]), vocab
+
 
 def read_analogy(path, iw):
     analogy = {}
@@ -75,6 +78,7 @@ def read_analogy(path, iw):
                 analogy[t]['wi'][w] = i
         return analogy
 
+
 def normalize(matrix):
     matrix2 = matrix.copy()
     matrix2.data **= 2
@@ -83,6 +87,7 @@ def normalize(matrix):
     normalizer.setdiag(norm)
     matrix = normalizer.tocsr().dot(matrix)
     return matrix
+
 
 def guess(sims, analogy, analogy_type, iw, wi, word_a, word_b, word_c):
     sim_a = sims[analogy[analogy_type]["wi"][word_a]]
@@ -101,6 +106,7 @@ def guess(sims, analogy, analogy_type, iw, wi, word_a, word_b, word_c):
     mul_sim[wi[word_c]] = 0
     guess_mul = iw[np.nanargmax(mul_sim)]
     return guess_add, guess_mul
+
 
 def main():
     neg = 1
@@ -152,9 +158,11 @@ def main():
         correct_add_num += results[analogy_type]["accuracy_add"][1]
         correct_mul_num += results[analogy_type]["accuracy_mul"][1]
         seen += results[analogy_type]["coverage"][1]
-    print ("Total accuracy (add): " + str(round(float(correct_add_num)/seen, 3)))
-    print ("Total accuracy (mul): " + str(round(float(correct_mul_num)/seen, 3)))
+
     # print results
+    print("Total accuracy (add): " + str(round(float(correct_add_num)/seen, 3)))
+    print("Total accuracy (mul): " + str(round(float(correct_mul_num)/seen, 3)))
+
 
 if __name__ == '__main__':
     main()
