@@ -79,7 +79,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td>Financial News 金融新闻</td>
       <td><a href="https://pan.baidu.com/s/1NNSBbS5YmudrleCrvL7BbA">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1jKcDetB0GTORhd7qaNJ64A">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1ov4YgJFHXRiYlvfNQgjFuA">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
@@ -100,7 +100,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td>Literature 文学作品</td>
       <td><a href="https://pan.baidu.com/s/1ndWi40zwcRW8JJQzoO-1Mw">300d</a></td>
       <td><a href="https://pan.baidu.com/s/158yIDYQUppWVM6H9YmM5iQ">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1XuMh5HnIsaf0q9CBLQqbaA">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
