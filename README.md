@@ -35,7 +35,7 @@ Chinese Word Vectors trained with different representations, context features, a
 
 <table align="center">
     <tr align="center">
-        <td colspan="5"><b>Word2ec / Skip-Gram with Negative Sampling (SGNS)</b></td>
+        <td colspan="5"><b>Word2vec / Skip-Gram with Negative Sampling (SGNS)</b></td>
     </tr>
     <tr align="center">
         <td rowspan="2">Corpus</td>
