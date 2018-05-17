@@ -12,7 +12,7 @@ def read_vectors(path, topn):  # read top n word vectors, i.e. top is 10000
     vectors = {}
     iw = []
     wi = {}
-    with open(path) as f:
+    with open(path, errors='ignore') as f:
         first_line = True
         for line in f:
             if first_line:
@@ -20,9 +20,10 @@ def read_vectors(path, topn):  # read top n word vectors, i.e. top is 10000
                 dim = int(line.strip().split()[1])
                 continue
             lines_num += 1
-            tokens = line.rstrip().split(' ')
-            vectors[tokens[0]] = np.asarray([float(x) for x in tokens[1:]])
-            iw.append(tokens[0])
+            line = line.rstrip().split()
+            word = line[0]
+            iw.append(word)
+            vectors[word] = np.asarray([float(x) for x in line[1:]])
             if topn != 0 and lines_num >= topn:
                 break
     for i, w in enumerate(iw):
@@ -122,7 +123,7 @@ def main():
         analogy_matrix = matrix[[wi[w] if w in wi else random.randint(0, len(wi)-1) for w in analogy[analogy_type]["iw"]]]
         sims = analogy_matrix.dot(matrix.T)
         sims = (sims + 1)/2  # Transform similarity scores to positive numbers (for mul evaluation)
-        for question in analogy[analogy_type]["questions"]: # Loop for each analogy question
+        for question in analogy[analogy_type]["questions"]:  # Loop for each analogy question
             word_a, word_b, word_c, word_d = question
             guess_add, guess_mul = guess(sims, analogy, analogy_type, iw, wi, word_a, word_b, word_c)
             if guess_add == word_d:
@@ -140,7 +141,7 @@ def main():
             print(analogy_type + " add/mul: " + str(round(acc_add, 3)) + "/" + str(round(acc_mul, 3)))
         # Store the results
         results[analogy_type] = {}
-        results[analogy_type]["coverage"] = [cov,analogy[analogy_type]["seen"], analogy[analogy_type]["total"]]
+        results[analogy_type]["coverage"] = [cov, analogy[analogy_type]["seen"], analogy[analogy_type]["total"]]
         results[analogy_type]["accuracy_add"] = [acc_add, correct_add_num, analogy[analogy_type]["seen"]]
         results[analogy_type]["accuracy_mul"] = [acc_mul, correct_mul_num, analogy[analogy_type]["seen"]]
 

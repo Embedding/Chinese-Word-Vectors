@@ -9,7 +9,7 @@ from scipy.sparse import dok_matrix, csr_matrix
 
 
 def load_matrix(f_path):
-    with open(f_path, "r") as f:
+    with open(f_path, errors='ignore') as f:
         row, col, data, iw = [], [], [], []
         first_line = True
         lines_num = 0
@@ -19,9 +19,11 @@ def load_matrix(f_path):
                 words_num = int(line.strip().split()[0])
                 dim = int(line.strip().split()[1])
                 continue
-            tokens = line.rstrip().split()
-            iw.append(tokens[0])
-            vector = tokens[1:]
+            lines_num += 1
+            line = line.rstrip().split()
+            word = line[0]
+            iw.append(word)
+            vector = line[1:]
             for v in vector:
                 row.append(lines_num)
                 col.append(int(v.split(":")[0]))
@@ -146,7 +148,7 @@ def main():
         else:
             acc_add = float(correct_add_num) / analogy[analogy_type]["seen"]
             acc_mul = float(correct_mul_num) / analogy[analogy_type]["seen"]
-            print (analogy_type + " add/mul: " +  str(round(acc_add, 3)) + "/" + str(round(acc_mul, 3)))
+            print (analogy_type + " add/mul: " + str(round(acc_add, 3)) + "/" + str(round(acc_mul, 3)))
         # Store the results
         results[analogy_type] = {}
         results[analogy_type]["coverage"] = [cov,analogy[analogy_type]["seen"], analogy[analogy_type]["total"]]

@@ -19,12 +19,14 @@ Besides dense word vectors (trained with SGNS), we also provide sparse vectors (
     <td><b>Sub-sampling</b></td>
     <td><b>Low-Frequency Word</b></td>
     <td><b>Iteration</b></td>
+    <td><b>Negative Sampling (SGNS)</b></td>
   </tr>
   <tr align="center">
     <td>5</td>
     <td>Yes</td>
     <td>1e-5</td>
     <td>10</td>
+    <td>5</td>
     <td>5</td>
   </tr>
 </table>
@@ -49,58 +51,58 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Baidu Encyclopedia 百度百科</td>
-      <td><a href="https://pan.baidu.com/s/1P_jpFuPI6K36PlmOLvdRJA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1C59ebYO14o1otnt3CK5cVA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1MsNSYjuglTROrojd9Ce2Xg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1Rn7LtTH0n7SHyHPfjRHbkg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1XEmP_0FkQwOjipCjI2OPEw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1eeCS7uD3e_qVN8rPwmXhAw">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Wikipedia_zh 中文维基百科</td>
-      <td><a href="https://pan.baidu.com/s/1bqtoXFJTawJ-0d0-E_SXbQ">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1aQGcEX2GiIkplTKfwaA8Yw">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1sgj5K1OjqSbIj02MJ3DSYw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1AmXYWVgkxrG4GokevPtNgA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1ZKePwxwsDdzNrfkc6WKdGQ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1ZBVVD4mUSUuXOxlZ3V71ZA">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>People's Daily News 人民日报</td>
-      <td><a href="https://pan.baidu.com/s/17er0CP00DUpH40lNsIKW1g">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1vdPSI6fOo9ALS6HNhNjezA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1JYVG5JJz-LkIQRh-Y2k77w">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/19sqMz-JAhhxh3o6ecvQxQw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1upPkA8KJnxTZBfjuNDtaeQ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1BvKk2QjbtQMch7EISppW2A">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Sogou News 搜狗新闻</td>
-      <td><a href="https://pan.baidu.com/s/1UyHTRF7LOqd3W9nehoS_xg">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1niyJ2DtrAViSQA1VqdKcNA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1VJDR5r5pZ3mSzUeb454CMg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1tUghuTno5yOvOx4LXA9-wg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/13yVrXeGYkxdGW3P6juiQmA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1pUqyn7mnPcUmzxT64gGpSw">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Financial News 金融新闻</td>
-      <td><a href="https://pan.baidu.com/s/1NNSBbS5YmudrleCrvL7BbA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1jKcDetB0GTORhd7qaNJ64A">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1ov4YgJFHXRiYlvfNQgjFuA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1EhtsbDa3ekzZPODWNLHcXA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1FcPHv7S4vUgnL7WeWf4_PA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/13CAxY5ffRFuOcHZu8VmArw">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Zhihu_QA 知乎问答 </td>
-      <td><a href="https://pan.baidu.com/s/1wn3a3Vo5eA_Hxdbbxff-rw">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1SnefWeGHQhw_yG14JYDZiw">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1wDlK9oPVESvScmXqYtQvvw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1VGOs0RH7DXE5vRrtw6boQA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1OQ6fQLCgqT43WTwh5fh_lg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1_xogqF9kJT6tmQHSAYrYeg">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Weibo 微博</td>
-      <td>300d</td>
-      <td>300d</td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1zbuUJEEEpZRNHxZ7Gezzmw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/11PWBcvruXEDvKf2TiIXntg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/10bhJpaXMCUK02nHvRAttqA">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Literature 文学作品</td>
-      <td><a href="https://pan.baidu.com/s/1ndWi40zwcRW8JJQzoO-1Mw">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/158yIDYQUppWVM6H9YmM5iQ">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1XuMh5HnIsaf0q9CBLQqbaA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1ciq8iXtcrHpu3ir_VhK0zg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1manrKRDb64t4QnlfIEIF-A">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1IG8IxNp2s7vVklz-vyZR9A">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
@@ -112,9 +114,9 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Mixed-large 综合</td>
-      <td><a href="https://pan.baidu.com/s/108Wyhg0HEbVcpyDJ1RH4eQ">300d</a></td>
-      <td>300d</td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1luy-GlTdqqvJ3j-A4FcIOw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1oJol-GaRMk4-8Ejpzxo6Gw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1DjIGENlhRbsVyHW-caRePg">300d</a></td>
       <td>300d</td>
     </tr>
 </table>
@@ -137,55 +139,55 @@ Chinese Word Vectors trained with different representations, context features, a
       <td>Baidu Encyclopedia 百度百科</td>
       <td>300d</td>
       <td>300d</td>
-      <td><a href="https://pan.baidu.com/s/1ayoXyLkMCbkEh9r1TwX32Q">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1-A6lmJVnCYIMwPiW-ZyNQg">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Wikipedia_zh 中文维基百科</td>
-      <td><a href="https://pan.baidu.com/s/1m4Yppo2JpV4_0qZazPqcFw">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1-_UB1CV96WQN0yp3v9kcOA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/12YZmPb8fZZwOzn9kI6hb0g">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1u4Kc-46LgD8KhglzFs9JYg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/18mpkuk-StHyTGoQ3KpUElw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/14k-K4a_N9wIofUJu3tHVmg">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>People's Daily News 人民日报</td>
-      <td><a href="https://pan.baidu.com/s/1FN2BpELh1jzebnr4q0_60A">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1mHkVFJkdYQkzrf_-yzxIhg">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1WW2tlEdQBufjj9ubWFICHg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1Z6Pbf9mwuwO93u3xqrmWgA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/118S1-ERke7gJw5AUpBCvDQ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1B1DbK8sskcdQuh5btY4NtQ">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Sogou News 搜狗新闻</td>
-      <td><a href="https://pan.baidu.com/s/19FJqCtYWBU4SZUYmCzegvA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/13N7yFouswT1c9nng57sbDg">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1crPFyGwR5YHA33C5R_WTpQ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/14T7isRAAko0QkXECiUhxBg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1qVHOy7QJ5E01O0ctuy7caQ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1KzPRMM31iTB9HDz5n2ZV5A">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Financial News 金融新闻</td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1O-bAd4LJkS3CUheOpkCSEQ">300d</a></td>
       <td>300d</td>
       <td>300d</td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Zhihu_QA 知乎问答 </td>
-      <td><a href="https://pan.baidu.com/s/1FZBtQJh4LzSzSrwGcT7mpA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1jUCSuOFqgbY_DCWV6WwgxQ">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1TQ8tWlGfEFaSutCJVjPLWQ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1fGEweIx4yXPcJBj9NwMMZA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1SqGx4cHuXb8vZ4sYIhM2vQ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/17Jtdk9stZUrPGEDlGlOs_w">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Weibo 微博</td>
-      <td>300d</td>
-      <td>300d</td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1IosDosEbr2_KUhzEbsr4rg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/17YixoH-WsuWyK21CeH4H6g">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1qOjA1JZ3YMVO6f18ZXMNrw">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Literature 文学作品</td>
-      <td><a href="https://pan.baidu.com/s/1Rm9rB2JP9Phm6GrpZVy-Wg">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1YzMG8ffRsJZroZltf4Hm9A">300d</a></td>
+      <td>300d</td>
+      <td>300d</td>
       <td>300d</td>
       <td>300d</td>
     </tr>
@@ -227,15 +229,15 @@ All vectors are trained by SGNS on Baidu Encyclopedia.
   <tr align="center">
   	<td rowspan="1">Word</td>
     <td>Word → Word</td>
-    <td><a href="https://pan.baidu.com/s/1P_jpFuPI6K36PlmOLvdRJA">300d</a></td>
- 	  <td><a href="https://pan.baidu.com/s/1XlOOon_NQtnhSKYbgwXEtA">300d</a></td>
+    <td><a href="https://pan.baidu.com/s/1Rn7LtTH0n7SHyHPfjRHbkg">300d</a></td>
+ 	  <td><a href="https://pan.baidu.com/s/18T6DRVmS_cZu5u64EbbESQ">300d</a></td>
   </tr>
 
   <tr align="center">
     <td rowspan="3">Ngram</td>
     <td>Word → Ngram (1-2)</td>
-    <td><a href="https://pan.baidu.com/s/1C59ebYO14o1otnt3CK5cVA">300d</a></td>
- 	  <td><a href="https://pan.baidu.com/s/1gdCpq0nsAhoFxKqctyOtzA">300d</a></td>
+    <td><a href="https://pan.baidu.com/s/1XEmP_0FkQwOjipCjI2OPEw">300d</a></td>
+ 	  <td><a href="https://pan.baidu.com/s/12asujjAaaqxNFYRNP-MThw">300d</a></td>
   </tr>
   <tr align="center">
     <td>Word → Ngram (1-3)</td>
@@ -244,25 +246,25 @@ All vectors are trained by SGNS on Baidu Encyclopedia.
   </tr>
   <tr align="center">
     <td>Ngram (1-2) → Ngram (1-2)</td>
-    <td><a href="https://pan.baidu.com/s/1Fdf4OXZoG138aLZMBsNVnw">300d</a></td>
- 	  <td><a href="https://pan.baidu.com/s/1bMxYF7mwiCi_TQx799FhEQ">300d</a></td>
+    <td><a href="https://pan.baidu.com/s/1Za7DIGVhE6dMsTmxHb-izg">300d</a></td>
+ 	  <td><a href="https://pan.baidu.com/s/1oKI4Cs9eo7bg5mqfY1hdmg">300d</a></td>
   </tr>
   
   <tr align="center">
     <td rowspan="3">Character</td>
     <td>Word → Character (1)</td>
- 	  <td><a href="https://pan.baidu.com/s/1QoWF_Xe5MQHT0jG8Q95RZg">300d</a></td>
-    <td><a href="https://pan.baidu.com/s/1GNdDPjgZuq0ES9xE_ASNxw">300d</a></td>
+ 	  <td><a href="https://pan.baidu.com/s/1c9yiosHKNIZwRlLzD_F1ig">300d</a></td>
+    <td><a href="https://pan.baidu.com/s/1KGZ_x8r-lq-AuElLCSVzvQ">300d</a></td>
   </tr>
   <tr align="center">
     <td>Word → Character (1-2)</td>
- 	  <td><a href="https://pan.baidu.com/s/1MsNSYjuglTROrojd9Ce2Xg">300d</a></td>
-    <td><a href="https://pan.baidu.com/s/1ewUYm01u0K_xrg3tDJ9kDw">300d</a></td>
+ 	  <td><a href="https://pan.baidu.com/s/1eeCS7uD3e_qVN8rPwmXhAw">300d</a></td>
+    <td><a href="https://pan.baidu.com/s/1q0ItLzbn5Tfb3LhepRCeEA">300d</a></td>
   </tr>
   <tr align="center">
     <td>Word → Character (1-4)</td>
-    <td><a href="https://pan.baidu.com/s/1JAfw3-NQoWmSKiwDrCJXhg">300d</a></td>
- 	  <td><a href="https://pan.baidu.com/s/1t2q8xLxljgy6ekOwNZaKeA">300d</a></td>
+    <td><a href="https://pan.baidu.com/s/1WNWAnba56Rqjmx-FAN_7_g">300d</a></td>
+ 	  <td><a href="https://pan.baidu.com/s/1hJKTAz6PwS7wmz9wQgmYeg">300d</a></td>
   </tr>
   
   <tr align="center">
@@ -275,13 +277,13 @@ All vectors are trained by SGNS on Baidu Encyclopedia.
   <tr align="center">
     <td rowspan="2">Position</td>
     <td>Word → Word (left/right)</td>
-    <td><a href="https://pan.baidu.com/s/1bS-T-pXJCOxueuE-PDbYpA">300d</a></td>
- 	  <td><a href="https://pan.baidu.com/s/1_jOOm6YxZhBEjPL5aP8ezQ">300d</a></td>
+    <td><a href="https://pan.baidu.com/s/1JvjcrXFZPknT5H5Xw6KRVg">300d</a></td>
+ 	  <td><a href="https://pan.baidu.com/s/1m6K9CnIIS8FrQZdDuF6hPQ">300d</a></td>
   </tr>
   <tr align="center">
     <td>Word → Word (distance)</td>
-    <td><a href="https://pan.baidu.com/s/1gnoAeaYGQrMWb-etfWSIQA">300d</a></td>
- 	  <td><a href="https://pan.baidu.com/s/1DrCNkHJgeh0QBWKWvouboQ">300d</a></td>
+    <td><a href="https://pan.baidu.com/s/1c29BDu4R1hyUX-sgvlHJnA">300d</a></td>
+ 	  <td><a href="https://pan.baidu.com/s/1sMZHIc-7eU6gRalHwtBHZw">300d</a></td>
   </tr>
   
   <tr align="center">
