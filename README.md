@@ -139,7 +139,7 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Baidu Encyclopedia 百度百科</td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1_itcjrQawCwcURa7WZLPOA">300d</a></td>
       <td>300d</td>
       <td><a href="https://pan.baidu.com/s/1gFNt3aZe4nA2rH7XwnyiIw">300d</a></td>
       <td>300d</td>
