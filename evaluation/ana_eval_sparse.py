@@ -19,7 +19,6 @@ def load_matrix(f_path):
                 words_num = int(line.rstrip().split()[0])
                 dim = int(line.rstrip().split()[1])
                 continue
-            lines_num += 1
             line = line.rstrip().split(' ')
             word = line[0]
             iw.append(word)
