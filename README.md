@@ -141,55 +141,55 @@ Chinese Word Vectors trained with different representations, context features, a
       <td>Baidu Encyclopedia 百度百科</td>
       <td>300d</td>
       <td>300d</td>
-      <td><a href="https://pan.baidu.com/s/1-A6lmJVnCYIMwPiW-ZyNQg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1ayoXyLkMCbkEh9r1TwX32Q">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Wikipedia_zh 中文维基百科</td>
-      <td><a href="https://pan.baidu.com/s/1u4Kc-46LgD8KhglzFs9JYg">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/18mpkuk-StHyTGoQ3KpUElw">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/14k-K4a_N9wIofUJu3tHVmg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1m4Yppo2JpV4_0qZazPqcFw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1-_UB1CV96WQN0yp3v9kcOA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/12YZmPb8fZZwOzn9kI6hb0g">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>People's Daily News 人民日报</td>
-      <td><a href="https://pan.baidu.com/s/1Z6Pbf9mwuwO93u3xqrmWgA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/118S1-ERke7gJw5AUpBCvDQ">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1B1DbK8sskcdQuh5btY4NtQ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1FN2BpELh1jzebnr4q0_60A">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1mHkVFJkdYQkzrf_-yzxIhg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1WW2tlEdQBufjj9ubWFICHg">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Sogou News 搜狗新闻</td>
-      <td><a href="https://pan.baidu.com/s/14T7isRAAko0QkXECiUhxBg">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1qVHOy7QJ5E01O0ctuy7caQ">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1KzPRMM31iTB9HDz5n2ZV5A">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/19FJqCtYWBU4SZUYmCzegvA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/13N7yFouswT1c9nng57sbDg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1crPFyGwR5YHA33C5R_WTpQ">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Financial News 金融新闻</td>
-      <td><a href="https://pan.baidu.com/s/1O-bAd4LJkS3CUheOpkCSEQ">300d</a></td>
+      <td>300d</td>
       <td>300d</td>
       <td>300d</td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Zhihu_QA 知乎问答 </td>
-      <td><a href="https://pan.baidu.com/s/1fGEweIx4yXPcJBj9NwMMZA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1SqGx4cHuXb8vZ4sYIhM2vQ">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/17Jtdk9stZUrPGEDlGlOs_w">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1FZBtQJh4LzSzSrwGcT7mpA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1jUCSuOFqgbY_DCWV6WwgxQ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1TQ8tWlGfEFaSutCJVjPLWQ">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Weibo 微博</td>
-      <td><a href="https://pan.baidu.com/s/1IosDosEbr2_KUhzEbsr4rg">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/17YixoH-WsuWyK21CeH4H6g">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1qOjA1JZ3YMVO6f18ZXMNrw">300d</a></td>
+      <td>300d</td>
+      <td>300d</td>
+      <td>300d</td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Literature 文学作品</td>
-      <td>300d</td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1Rm9rB2JP9Phm6GrpZVy-Wg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1YzMG8ffRsJZroZltf4Hm9A">300d</a></td>
       <td>300d</td>
       <td>300d</td>
     </tr>
