@@ -19,7 +19,7 @@ Besides dense word vectors (trained with SGNS), we also provide sparse vectors (
     <td><b>Sub-sampling</b></td>
     <td><b>Low-Frequency Word</b></td>
     <td><b>Iteration</b></td>
-    <td><b>Negative Sampling (SGNS)</b></td>
+    <td><b>Negative Sampling<sup>*</sup></b></td>
   </tr>
   <tr align="center">
     <td>5</td>
@@ -30,6 +30,8 @@ Besides dense word vectors (trained with SGNS), we also provide sparse vectors (
     <td>5</td>
   </tr>
 </table>
+
+<sup>\*</sup>Only for SGNS.
 
 ### Various Domains
 
