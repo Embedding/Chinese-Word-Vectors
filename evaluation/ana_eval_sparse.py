@@ -151,7 +151,7 @@ def main():
             print (analogy_type + " add/mul: " + str(round(acc_add, 3)) + "/" + str(round(acc_mul, 3)))
         # Store the results
         results[analogy_type] = {}
-        results[analogy_type]["coverage"] = [cov,analogy[analogy_type]["seen"], analogy[analogy_type]["total"]]
+        results[analogy_type]["coverage"] = [cov, analogy[analogy_type]["seen"], analogy[analogy_type]["total"]]
         results[analogy_type]["accuracy_add"] = [acc_add, correct_add_num, analogy[analogy_type]["seen"]]
         results[analogy_type]["accuracy_mul"] = [acc_mul, correct_mul_num, analogy[analogy_type]["seen"]]
 

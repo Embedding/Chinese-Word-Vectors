@@ -96,7 +96,7 @@ def main():
     vectors_path = "embedding_sample/dense_small.txt"
     analogy_path = "CA8/morphological.txt"
     topn = 0
-    results = {} # Records the results
+    results = {}  # Records the results
     myParser = argparse.ArgumentParser()
     myParser.add_argument('-v', '--vectors', type=str, help="Vectors path")
     myParser.add_argument('-a', '--analogy', type=str, help="Analogy benchmark path")
