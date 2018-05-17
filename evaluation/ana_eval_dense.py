@@ -12,18 +12,17 @@ def read_vectors(path, topn):  # read top n word vectors, i.e. top is 10000
     vectors = {}
     iw = []
     wi = {}
-    with open(path, errors='ignore') as f:
+    with open(path, encoding='utf-8', errors='ignore') as f:
         first_line = True
         for line in f:
             if first_line:
                 first_line = False
-                dim = int(line.strip().split()[1])
+                dim = int(line.rstrip().split()[1])
                 continue
             lines_num += 1
-            line = line.rstrip().split()
-            word = line[0]
-            iw.append(word)
-            vectors[word] = np.asarray([float(x) for x in line[1:]])
+            tokens = line.rstrip().split(' ')
+            vectors[tokens[0]] = np.asarray([float(x) for x in tokens[1:]])
+            iw.append(tokens[0])
             if topn != 0 and lines_num >= topn:
                 break
     for i, w in enumerate(iw):

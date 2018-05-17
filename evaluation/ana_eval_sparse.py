@@ -16,11 +16,11 @@ def load_matrix(f_path):
         for line in f:
             if first_line:
                 first_line = False
-                words_num = int(line.strip().split()[0])
-                dim = int(line.strip().split()[1])
+                words_num = int(line.rstrip().split()[0])
+                dim = int(line.rstrip().split()[1])
                 continue
             lines_num += 1
-            line = line.rstrip().split()
+            line = line.rstrip().split(' ')
             word = line[0]
             iw.append(word)
             vector = line[1:]
