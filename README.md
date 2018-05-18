@@ -10,7 +10,7 @@ Shen Li, Zhe Zhao, Renfen Hu, Wensi Li, Tao Liu, Xiaoyong Du, <a href="https://a
 
 ```
 @article{shen2018analogical,
-  title={Bag of tricks for efficient text classification},
+  title={Analogical Reasoning on Chinese Morphological and Semantic Relations},
   author={Shen, Li and Zhe, Zhao and Renfen, Hu and Wensi, Li and Tao, Liu and Xiaoyong, Du},
   journal={arXiv preprint arXiv:1805.06504},
   year={2018}
