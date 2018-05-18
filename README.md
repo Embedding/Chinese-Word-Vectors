@@ -3,6 +3,30 @@ This project provides 100+ Chinese Word Vectors (embeddings) trained with differ
 
 Moreover, we provide a Chinese analogical reasoning dataset **CA8** and an evaluation toolkit for users to evaluate the quality of their word vectors.
 
+## Reference
+Please cite the paper, if using these embeddings and CA8 dataset.
+
+Shen Li, Zhe Zhao, Renfen Hu, Wensi Li, Tao Liu, Xiaoyong Du, <a href="https://arxiv.org/abs/1805.06504"><em>Analogical Reasoning on Chinese Morphological and Semantic Relations</em></a>, accepted by ACL 2018.
+
+```
+@article{shen2018analogical,
+  title={Bag of tricks for efficient text classification},
+  author={Shen, Li and Zhe, Zhao and Renfen, Hu and Wensi, Li and Tao, Liu and Xiaoyong, Du},
+  journal={arXiv preprint arXiv:1805.06504},
+  year={2018}
+}
+```
+
+<!-- 
+```
+@InProceedings{shen2018analogical,
+  title={Analogical Reasoning on Chinese Morphological and Semantic Relations},
+  author={Shen, Li and Zhe, Zhao and Renfen, Hu and Wensi, Li and Tao, Liu and Xiaoyong, Du},
+  year={2018},
+}
+```
+ -->
+
 ## Format
 The pre-trained vector files are in text format. Each line contains a word and its vector. Each value is separated by space. The first line records the meta information: the first number indicates the number of words in the file and the second indicates the dimension size. 
 
@@ -141,7 +165,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td>Baidu Encyclopedia 百度百科</td>
       <td><a href="https://pan.baidu.com/s/1_itcjrQawCwcURa7WZLPOA">300d</a></td>
       <td>300d</td>
-      <td><a href="https://pan.baidu.com/s/1gFNt3aZe4nA2rH7XwnyiIw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1KcfFdyO0-kE9S9CwzIisfw">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
@@ -420,18 +444,3 @@ Run the following codes to evaluate sparse vectors.
 $ python ana_eval_sparse.py -v <vector.txt> -a CA8/morphological.txt
 $ python ana_eval_sparse.py -v <vector.txt> -a CA8/semantic.txt
 ```
-
-## Reference
-Please cite the paper, if using these embeddings and CA8 dataset.
-
-Shen Li, Zhe Zhao, Renfen Hu, Wensi Li, Tao Liu, Xiaoyong Du, <em>Analogical Reasoning on Chinese Morphological and Semantic Relations</em>, ACL 2018.
-
-<!-- 
-```
-@InProceedings{shen2018analogical,
-  title={Analogical Reasoning on Chinese Morphological and Semantic Relations},
-  author={Shen, Li and Zhe, Zhao and Renfen, Hu and Wensi, Li and Tao, Liu and Xiaoyong, Du},
-  year={2018},
-}
-```
- -->
