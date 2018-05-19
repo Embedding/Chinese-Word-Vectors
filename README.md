@@ -164,7 +164,7 @@ Chinese Word Vectors trained with different representations, context features, a
     <tr  align="center">
       <td>Baidu Encyclopedia 百度百科</td>
       <td><a href="https://pan.baidu.com/s/1_itcjrQawCwcURa7WZLPOA">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1cEZzN1S2senwWSyHOnL7YQ">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1KcfFdyO0-kE9S9CwzIisfw">300d</a></td>
       <td>300d</td>
     </tr>
