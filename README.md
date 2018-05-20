@@ -80,7 +80,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="https://pan.baidu.com/s/1Rn7LtTH0n7SHyHPfjRHbkg">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1XEmP_0FkQwOjipCjI2OPEw">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1eeCS7uD3e_qVN8rPwmXhAw">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1Gndr0fReIq_oJ3R34CxlPg">300d</a></td>
     </tr>
     <tr  align="center">
       <td>Wikipedia_zh 中文维基百科</td>
@@ -166,7 +166,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="https://pan.baidu.com/s/1_itcjrQawCwcURa7WZLPOA">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1cEZzN1S2senwWSyHOnL7YQ">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1KcfFdyO0-kE9S9CwzIisfw">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1FXYM3CY161_4QMgiH8vasQ">300d</a></td>
     </tr>
     <tr  align="center">
       <td>Wikipedia_zh 中文维基百科</td>
