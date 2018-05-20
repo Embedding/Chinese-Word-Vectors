@@ -94,7 +94,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="https://pan.baidu.com/s/19sqMz-JAhhxh3o6ecvQxQw">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1upPkA8KJnxTZBfjuNDtaeQ">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1BvKk2QjbtQMch7EISppW2A">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/19Vso_k79FZb5OZCWQPAnFQ">300d</a></td>
     </tr>
     <tr  align="center">
       <td>Sogou News 搜狗新闻</td>
@@ -180,7 +180,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="https://pan.baidu.com/s/1NLr1K7aapU2sYBvzbVny5g">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1LJl3Br0ccGDHP0XX2k3pVw">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1GQQXGMn1AHh-BlifT0JD2g">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1Xm9Ec3O3rJ6ayrwVwonC7g">300d</a></td>
     </tr>
     <tr  align="center">
       <td>Sogou News 搜狗新闻</td>
