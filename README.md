@@ -133,8 +133,8 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Complete Library in Four Sections<br />四库全书<sup>*</sup></td>
-      <td>300d</td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1vPSeUsSiWYXEWAuokLR0qQ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1sS9E7sclvS_UZcBgHN7xLQ">300d</a></td>
       <td>NAN</td>
       <td>NAN</td>
     </tr>
@@ -193,7 +193,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td>Financial News 金融新闻</td>
       <td><a href="https://pan.baidu.com/s/10wtgdmrTsTrjpSDvI0KzOw">300d</a></td>
       <td>300d</td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1w24vCfgqcoJvPxsB5VrRvw">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
@@ -213,14 +213,14 @@ Chinese Word Vectors trained with different representations, context features, a
     <tr  align="center">
       <td>Literature 文学作品</td>
       <td><a href="https://pan.baidu.com/s/1HTHhlr8zvzhTwed7dO0sDg">300d</a></td>
-      <td>300d</td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1jAuGJBxKqgapt__urGsBOQ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/173AJfCoAV0ZA8Z31tKBdTA">300d</a></td>
       <td>300d</td>
     </tr>
     <tr  align="center">
       <td>Complete Library in Four Sections<br />四库全书<sup>*</sup></td>
-      <td>300d</td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1NJ1Gc99oE0-GV0QxBqy-qw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1YGEgyXIbw0O4NtoM1ohjdA">300d</a></td>
       <td>NAN</td>
       <td>NAN</td>
     </tr>
