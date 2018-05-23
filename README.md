@@ -87,7 +87,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="https://pan.baidu.com/s/1AmXYWVgkxrG4GokevPtNgA">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1ZKePwxwsDdzNrfkc6WKdGQ">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1ZBVVD4mUSUuXOxlZ3V71ZA">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/19wQrclyynOnco3JBvnI5pA">300d</td>
     </tr>
     <tr  align="center">
       <td>People's Daily News 人民日报</td>
@@ -173,7 +173,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="https://pan.baidu.com/s/1MGXRrc54nITPzQ7sfEUjMA">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1mtxZna8UJ7xBIxhBFntumQ">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1dDImpAx41V73Byl2julOGA">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1bsBQHXFpxMHGBexYof1_rw">300d</a></td>
     </tr>
     <tr  align="center">
       <td>People's Daily News 人民日报</td>
