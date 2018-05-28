@@ -115,7 +115,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="https://pan.baidu.com/s/1VGOs0RH7DXE5vRrtw6boQA">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1OQ6fQLCgqT43WTwh5fh_lg">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1_xogqF9kJT6tmQHSAYrYeg">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1Fo27Lv_0nz8FXg-xbOz14Q">300d</a></td>
     </tr>
     <tr  align="center">
       <td>Weibo 微博</td>
@@ -201,7 +201,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="https://pan.baidu.com/s/1VaUP3YJC0IZKTbJ-1_8HZg">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1g39PKwT0kSmpneKOgXR5YQ">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1d8Bsuak0fyXxQOVUiNr-2w">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1D5fteBX0Vy4czEqpxXjlrQ">300d</a></td>
     </tr>
     <tr  align="center">
       <td>Weibo 微博</td>
