@@ -108,7 +108,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="https://pan.baidu.com/s/1EhtsbDa3ekzZPODWNLHcXA">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1FcPHv7S4vUgnL7WeWf4_PA">300d</a></td>
       <td><a href="https://pan.baidu.com/s/13CAxY5ffRFuOcHZu8VmArw">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1sqvrUtGBAZ7YWEsGz41DRQ">300d</a></td>
     </tr>
     <tr  align="center">
       <td>Zhihu_QA 知乎问答 </td>
@@ -122,14 +122,14 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="https://pan.baidu.com/s/1zbuUJEEEpZRNHxZ7Gezzmw">300d</a></td>
       <td><a href="https://pan.baidu.com/s/11PWBcvruXEDvKf2TiIXntg">300d</a></td>
       <td><a href="https://pan.baidu.com/s/10bhJpaXMCUK02nHvRAttqA">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1FHl_bQkYucvVk-j2KG4dxA">300d</a></td>
     </tr>
     <tr  align="center">
       <td>Literature 文学作品</td>
       <td><a href="https://pan.baidu.com/s/1ciq8iXtcrHpu3ir_VhK0zg">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1manrKRDb64t4QnlfIEIF-A">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1IG8IxNp2s7vVklz-vyZR9A">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1pDiUKNpas1Gpzip-sFlh2w">300d</a></td>
     </tr>
     <tr  align="center">
       <td>Complete Library in Four Sections<br />四库全书<sup>*</sup></td>
@@ -194,7 +194,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="https://pan.baidu.com/s/10wtgdmrTsTrjpSDvI0KzOw">300d</a></td>
       <td>300d</td>
       <td><a href="https://pan.baidu.com/s/1w24vCfgqcoJvPxsB5VrRvw">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1b9BPiDRhiEZ-6ybTcovrqQ">300d</a></td>
     </tr>
     <tr  align="center">
       <td>Zhihu_QA 知乎问答 </td>
@@ -208,14 +208,14 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="https://pan.baidu.com/s/15O2EbToOzjNSkzJwAOk_Ug">300d</a></td>
       <td><a href="https://pan.baidu.com/s/11Dqywn0hfMhysto7bZS1Dw">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1wY-7mfV6nwDj_tru6W9h4Q">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1DMW-MgLApbQnWwDd-pT_qw">300d</a></td>
     </tr>
     <tr  align="center">
       <td>Literature 文学作品</td>
       <td><a href="https://pan.baidu.com/s/1HTHhlr8zvzhTwed7dO0sDg">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1jAuGJBxKqgapt__urGsBOQ">300d</a></td>
       <td><a href="https://pan.baidu.com/s/173AJfCoAV0ZA8Z31tKBdTA">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1dFCxke_Su3lLsuwZr7co3A">300d</a></td>
     </tr>
     <tr  align="center">
       <td>Complete Library in Four Sections<br />四库全书<sup>*</sup></td>
