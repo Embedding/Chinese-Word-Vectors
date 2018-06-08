@@ -192,7 +192,7 @@ Chinese Word Vectors trained with different representations, context features, a
     <tr  align="center">
       <td>Financial News 金融新闻</td>
       <td><a href="https://pan.baidu.com/s/10wtgdmrTsTrjpSDvI0KzOw">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/1b6zjvhOIqTdACSSbriisVw">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1w24vCfgqcoJvPxsB5VrRvw">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1b9BPiDRhiEZ-6ybTcovrqQ">300d</a></td>
     </tr>
