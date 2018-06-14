@@ -267,8 +267,8 @@ All vectors are trained by SGNS on Baidu Encyclopedia.
   </tr>
   <tr align="center">
     <td>Word → Ngram (1-3)</td>
-    <td>300d</td>
- 	  <td>300d</td>
+    <td><a href="https://pan.baidu.com/s/1oUmbxsnSuXf2jU8Jxu7U8A">300d</a></td>
+ 	  <td><a href="https://pan.baidu.com/s/1ylg6FfFHa0kXbiVz8bIL8g">300d</a></td>
   </tr>
   <tr align="center">
     <td>Ngram (1-2) → Ngram (1-2)</td>
