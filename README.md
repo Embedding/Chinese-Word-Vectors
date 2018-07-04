@@ -227,10 +227,10 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Mixed-large 综合</td>
-      <td>300d</td>
-      <td>300d</td>
-      <td>300d</td>
-      <td>300d</td>
+      <td>Sparse</td>
+      <td>Sparse</td>
+      <td>Sparse</td>
+      <td>Sparse</td>
     </tr>
 </table>
 
