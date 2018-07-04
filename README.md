@@ -163,64 +163,64 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Baidu Encyclopedia 百度百科</td>
-      <td><a href="https://pan.baidu.com/s/1_itcjrQawCwcURa7WZLPOA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1cEZzN1S2senwWSyHOnL7YQ">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1KcfFdyO0-kE9S9CwzIisfw">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1FXYM3CY161_4QMgiH8vasQ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1_itcjrQawCwcURa7WZLPOA">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1cEZzN1S2senwWSyHOnL7YQ">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1KcfFdyO0-kE9S9CwzIisfw">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1FXYM3CY161_4QMgiH8vasQ">Sparse</a></td>
     </tr>
     <tr  align="center">
       <td>Wikipedia_zh 中文维基百科</td>
-      <td><a href="https://pan.baidu.com/s/1MGXRrc54nITPzQ7sfEUjMA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1mtxZna8UJ7xBIxhBFntumQ">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1dDImpAx41V73Byl2julOGA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1bsBQHXFpxMHGBexYof1_rw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1MGXRrc54nITPzQ7sfEUjMA">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1mtxZna8UJ7xBIxhBFntumQ">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1dDImpAx41V73Byl2julOGA">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1bsBQHXFpxMHGBexYof1_rw">Sparse</a></td>
     </tr>
     <tr  align="center">
       <td>People's Daily News 人民日报</td>
-      <td><a href="https://pan.baidu.com/s/1NLr1K7aapU2sYBvzbVny5g">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1LJl3Br0ccGDHP0XX2k3pVw">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1GQQXGMn1AHh-BlifT0JD2g">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1Xm9Ec3O3rJ6ayrwVwonC7g">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1NLr1K7aapU2sYBvzbVny5g">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1LJl3Br0ccGDHP0XX2k3pVw">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1GQQXGMn1AHh-BlifT0JD2g">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1Xm9Ec3O3rJ6ayrwVwonC7g">Sparse</a></td>
     </tr>
     <tr  align="center">
       <td>Sogou News 搜狗新闻</td>
-      <td><a href="https://pan.baidu.com/s/1ECA51CZLp9_JB_me7YZ9-Q">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1FO39ZYy1mStERf_b53Y_yQ">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1lLBFBk8nn3spFAvKY9IJ6A">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1f-dLQZlZo_-B5ZKcPIc6rw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1ECA51CZLp9_JB_me7YZ9-Q">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1FO39ZYy1mStERf_b53Y_yQ">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1lLBFBk8nn3spFAvKY9IJ6A">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1f-dLQZlZo_-B5ZKcPIc6rw">Sparse</a></td>
     </tr>
     <tr  align="center">
       <td>Financial News 金融新闻</td>
-      <td><a href="https://pan.baidu.com/s/10wtgdmrTsTrjpSDvI0KzOw">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1b6zjvhOIqTdACSSbriisVw">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1w24vCfgqcoJvPxsB5VrRvw">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1b9BPiDRhiEZ-6ybTcovrqQ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/10wtgdmrTsTrjpSDvI0KzOw">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1b6zjvhOIqTdACSSbriisVw">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1w24vCfgqcoJvPxsB5VrRvw">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1b9BPiDRhiEZ-6ybTcovrqQ">Sparse</a></td>
     </tr>
     <tr  align="center">
       <td>Zhihu_QA 知乎问答 </td>
-      <td><a href="https://pan.baidu.com/s/1VaUP3YJC0IZKTbJ-1_8HZg">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1g39PKwT0kSmpneKOgXR5YQ">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1d8Bsuak0fyXxQOVUiNr-2w">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1D5fteBX0Vy4czEqpxXjlrQ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1VaUP3YJC0IZKTbJ-1_8HZg">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1g39PKwT0kSmpneKOgXR5YQ">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1d8Bsuak0fyXxQOVUiNr-2w">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1D5fteBX0Vy4czEqpxXjlrQ">Sparse</a></td>
     </tr>
     <tr  align="center">
       <td>Weibo 微博</td>
-      <td><a href="https://pan.baidu.com/s/15O2EbToOzjNSkzJwAOk_Ug">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/11Dqywn0hfMhysto7bZS1Dw">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1wY-7mfV6nwDj_tru6W9h4Q">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1DMW-MgLApbQnWwDd-pT_qw">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/15O2EbToOzjNSkzJwAOk_Ug">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/11Dqywn0hfMhysto7bZS1Dw">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1wY-7mfV6nwDj_tru6W9h4Q">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1DMW-MgLApbQnWwDd-pT_qw">Sparse</a></td>
     </tr>
     <tr  align="center">
       <td>Literature 文学作品</td>
-      <td><a href="https://pan.baidu.com/s/1HTHhlr8zvzhTwed7dO0sDg">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1jAuGJBxKqgapt__urGsBOQ">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/173AJfCoAV0ZA8Z31tKBdTA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1dFCxke_Su3lLsuwZr7co3A">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1HTHhlr8zvzhTwed7dO0sDg">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1jAuGJBxKqgapt__urGsBOQ">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/173AJfCoAV0ZA8Z31tKBdTA">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1dFCxke_Su3lLsuwZr7co3A">Sparse</a></td>
     </tr>
     <tr  align="center">
       <td>Complete Library in Four Sections<br />四库全书<sup>*</sup></td>
-      <td><a href="https://pan.baidu.com/s/1NJ1Gc99oE0-GV0QxBqy-qw">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1YGEgyXIbw0O4NtoM1ohjdA">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1NJ1Gc99oE0-GV0QxBqy-qw">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1YGEgyXIbw0O4NtoM1ohjdA">Sparse</a></td>
       <td>NAN</td>
       <td>NAN</td>
     </tr>
