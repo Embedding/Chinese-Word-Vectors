@@ -143,7 +143,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="https://pan.baidu.com/s/1luy-GlTdqqvJ3j-A4FcIOw">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1oJol-GaRMk4-8Ejpzxo6Gw">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1DjIGENlhRbsVyHW-caRePg">300d</a></td>
-      <td>300d</td>
+      <td><a href="https://pan.baidu.com/s/14JP1gD7hcmsWdSpTvA3vKA">300d</a></td>
     </tr>
 </table>
 
