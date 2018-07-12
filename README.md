@@ -6,26 +6,36 @@ Moreover, we provide a Chinese analogical reasoning dataset **CA8** and an evalu
 ## Reference
 Please cite the paper, if using these embeddings and CA8 dataset.
 
-Shen Li, Zhe Zhao, Renfen Hu, Wensi Li, Tao Liu, Xiaoyong Du, <a href="https://arxiv.org/abs/1805.06504"><em>Analogical Reasoning on Chinese Morphological and Semantic Relations</em></a>, accepted by ACL 2018.
+Shen Li, Zhe Zhao, Renfen Hu, Wensi Li, Tao Liu, Xiaoyong Du, <a href="http://aclweb.org/anthology/P18-2023"><em>Analogical Reasoning on Chinese Morphological and Semantic Relations</em></a>, ACL 2018.
 
 ```
+@InProceedings{P18-2023,
+  author =  "Li, Shen
+    and Zhao, Zhe
+    and Hu, Renfen
+    and Li, Wensi
+    and Liu, Tao
+    and Du, Xiaoyong",
+  title =   "Analogical Reasoning on Chinese Morphological and Semantic Relations",
+  booktitle =   "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+  year =  "2018",
+  publisher =   "Association for Computational Linguistics",
+  pages =   "138--143",
+  location =  "Melbourne, Australia",
+  url =   "http://aclweb.org/anthology/P18-2023"
+}
+```
+
+<!-- Shen Li, Zhe Zhao, Renfen Hu, Wensi Li, Tao Liu, Xiaoyong Du, <a href="https://arxiv.org/abs/1805.06504"><em>Analogical Reasoning on Chinese Morphological and Semantic Relations</em></a>, accepted by ACL 2018. -->
+
+<!-- ```
 @article{shen2018analogical,
   title={Analogical Reasoning on Chinese Morphological and Semantic Relations},
   author={Shen, Li and Zhe, Zhao and Renfen, Hu and Wensi, Li and Tao, Liu and Xiaoyong, Du},
   journal={arXiv preprint arXiv:1805.06504},
   year={2018}
 }
-```
-
-<!-- 
-```
-@InProceedings{shen2018analogical,
-  title={Analogical Reasoning on Chinese Morphological and Semantic Relations},
-  author={Shen, Li and Zhe, Zhao and Renfen, Hu and Wensi, Li and Tao, Liu and Xiaoyong, Du},
-  year={2018},
-}
-```
- -->
+``` -->
 
 ## Format
 The pre-trained vector files are in text format. Each line contains a word and its vector. Each value is separated by space. The first line records the meta information: the first number indicates the number of words in the file and the second indicates the dimension size. 
