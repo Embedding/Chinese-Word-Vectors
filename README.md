@@ -26,16 +26,18 @@ Shen Li, Zhe Zhao, Renfen Hu, Wensi Li, Tao Liu, Xiaoyong Du, <a href="http://ac
 }
 ```
 
-<!-- Shen Li, Zhe Zhao, Renfen Hu, Wensi Li, Tao Liu, Xiaoyong Du, <a href="https://arxiv.org/abs/1805.06504"><em>Analogical Reasoning on Chinese Morphological and Semantic Relations</em></a>, accepted by ACL 2018. -->
+<!-- 
+Shen Li, Zhe Zhao, Renfen Hu, Wensi Li, Tao Liu, Xiaoyong Du, <a href="https://arxiv.org/abs/1805.06504"><em>Analogical Reasoning on Chinese Morphological and Semantic Relations</em></a>, accepted by ACL 2018.
 
-<!-- ```
+```
 @article{shen2018analogical,
   title={Analogical Reasoning on Chinese Morphological and Semantic Relations},
   author={Shen, Li and Zhe, Zhao and Renfen, Hu and Wensi, Li and Tao, Liu and Xiaoyong, Du},
   journal={arXiv preprint arXiv:1805.06504},
   year={2018}
 }
-``` -->
+``` 
+-->
 
 ## Format
 The pre-trained vector files are in text format. Each line contains a word and its vector. Each value is separated by space. The first line records the meta information: the first number indicates the number of words in the file and the second indicates the dimension size. 
