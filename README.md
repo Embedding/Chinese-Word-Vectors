@@ -26,18 +26,20 @@ Shen Li, Zhe Zhao, Renfen Hu, Wensi Li, Tao Liu, Xiaoyong Du, <a href="http://ac
 }
 ```
 
-<!-- 
-Shen Li, Zhe Zhao, Renfen Hu, Wensi Li, Tao Liu, Xiaoyong Du, <a href="https://arxiv.org/abs/1805.06504"><em>Analogical Reasoning on Chinese Morphological and Semantic Relations</em></a>, accepted by ACL 2018.
+A detailed analysis of the relation between the intrinsic and extrinsic evaluations of word embeddings is shown in the paper:
+
+Yuanyuan Qiu, Hongzheng Li, Shen Li, Yingdi Jiang, Renfen Hu, Lijiao Yang. <a href="http://www.cips-cl.org/static/anthology/CCL-2018/CCL-18-086.pdf"><em>Revisiting Correlations between Intrinsic and Extrinsic Evaluations of Word Embeddings</em></a>. Chinese Computational Linguistics and Natural Language Processing Based on Naturally Annotated Big Data. Springer, Cham, 2018. 209-221. (CCL 2018 Best Paper)
 
 ```
-@article{shen2018analogical,
-  title={Analogical Reasoning on Chinese Morphological and Semantic Relations},
-  author={Shen, Li and Zhe, Zhao and Renfen, Hu and Wensi, Li and Tao, Liu and Xiaoyong, Du},
-  journal={arXiv preprint arXiv:1805.06504},
-  year={2018}
+@incollection{qiu2018revisiting,
+  title={Revisiting Correlations between Intrinsic and Extrinsic Evaluations of Word Embeddings},
+  author={Qiu, Yuanyuan and Li, Hongzheng and Li, Shen and Jiang, Yingdi and Hu, Renfen and Yang, Lijiao},
+  booktitle={Chinese Computational Linguistics and Natural Language Processing Based on Naturally Annotated Big Data},
+  pages={209--221},
+  year={2018},
+  publisher={Springer}
 }
-``` 
--->
+```
 
 ## Format
 The pre-trained vector files are in text format. Each line contains a word and its vector. Each value is separated by space. The first line records the meta information: the first number indicates the number of words in the file and the second indicates the dimension size. 
