@@ -357,7 +357,7 @@ Three context features: **word**, **ngram**, and **character** are commonly used
 Besides word, ngram, and character, there are other features which have substantial influence on properties of word vectors. For example, using entire text as context feature could introduce more topic information into word vectors; using dependency parse as context feature could add syntactic constraint to word vectors. 17 co-occurrence types are considered in this project.
 
 ## Corpus
-We made great efforts to collect corpus across various domains. All text data are preprocessed by removing html and xml tags. Only the plain text are kept and [HanLP(v_1.5.3)](https://github.com/hankcs/HanLP) is used for word segmentation. The detailed corpora information is listed as follows:
+We made great efforts to collect corpus across various domains. All text data are preprocessed by removing html and xml tags. Only the plain text are kept and [HanLP(v_1.5.3)](https://github.com/hankcs/HanLP) is used for word segmentation. In addition, traditional Chinese characters are converted into simplified characters with [Open Chinese Convert (OpenCC)](https://github.com/BYVoid/OpenCC). The detailed corpora information is listed as follows:
 
 <table>
 	<tr align="center">
