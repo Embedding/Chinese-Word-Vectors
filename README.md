@@ -157,23 +157,19 @@ Chinese Word Vectors trained with different representations, context features, a
     <tr  align="center">
       <td>Mixed-large 综合<br>Baidu Netdisk / Google Drive</td>
       <td>
-        <a href="https://pan.baidu.com/s/1luy-GlTdqqvJ3j-A4FcIOw">300d</a>
-        /
+        <a href="https://pan.baidu.com/s/1luy-GlTdqqvJ3j-A4FcIOw">300d</a><br>
         <a href="https://drive.google.com/open?id=1Zh9ZCEu8_eSQ-qkYVQufQDNKPC4mtEKR">300d</a>
       </td>
       <td>
-        <a href="https://pan.baidu.com/s/1oJol-GaRMk4-8Ejpzxo6Gw">300d</a>
-        /
+        <a href="https://pan.baidu.com/s/1oJol-GaRMk4-8Ejpzxo6Gw">300d</a><br>
         <a href="https://drive.google.com/open?id=1WUU9LnoAjs--1E_WqcghLJ-Pp8bb38oS">300d</a>
       </td>
       <td>
-        <a href="https://pan.baidu.com/s/1DjIGENlhRbsVyHW-caRePg">300d</a>
-        /
+        <a href="https://pan.baidu.com/s/1DjIGENlhRbsVyHW-caRePg">300d</a><br>
         <a href="https://drive.google.com/open?id=1aVAK0Z2E5DkdIH6-JHbiWSL5dbAcz6c3">300d</a>
       </td>
       <td>
-        <a href="https://pan.baidu.com/s/14JP1gD7hcmsWdSpTvA3vKA">300d</a>
-        /
+        <a href="https://pan.baidu.com/s/14JP1gD7hcmsWdSpTvA3vKA">300d</a><br>
         <a href="https://drive.google.com/open?id=1kSAl4_AOg3_6ayU7KRM0Nk66uGdSZdnk">300d</a>
       </td>
     </tr>
