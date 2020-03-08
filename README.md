@@ -426,7 +426,7 @@ We made great efforts to collect corpus across various domains. All text data ar
 		<td>0.73G</td>
 		<td>136M</td>
 		<td>850K</td>
-		<td>Chinese microblog data provided by NLPIR Lab<br />http://www.nlpir.org/download/weibo.7z</td>
+		<td>Chinese microblog data provided by NLPIR Lab<br />http://www.nlpir.org/wordpress/download/weibo.7z</td>
 	</tr>
 	<tr align="center">
 		<td>Literature<br />文学作品</td>
