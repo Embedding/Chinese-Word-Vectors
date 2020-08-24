@@ -96,7 +96,7 @@ Chinese Word Vectors trained with different representations, context features, a
       <td><a href="https://pan.baidu.com/s/1Rn7LtTH0n7SHyHPfjRHbkg">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1XEmP_0FkQwOjipCjI2OPEw">300d</a></td>
       <td><a href="https://pan.baidu.com/s/1eeCS7uD3e_qVN8rPwmXhAw">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1Gndr0fReIq_oJ3R34CxlPg">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1IiIbQGJ_AooTj5s8aZYcvA">300d</a> / PWD: 5555</td>
     </tr>
     <tr  align="center">
       <td>Wikipedia_zh 中文维基百科</td>
@@ -143,9 +143,9 @@ Chinese Word Vectors trained with different representations, context features, a
     <tr  align="center">
       <td>Literature 文学作品</td>
       <td><a href="https://pan.baidu.com/s/1ciq8iXtcrHpu3ir_VhK0zg">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1manrKRDb64t4QnlfIEIF-A">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1Oa4CkPd8o2xd6LEAaa4gmg">300d</a> / PWD: z5b4</td>
       <td><a href="https://pan.baidu.com/s/1IG8IxNp2s7vVklz-vyZR9A">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1pDiUKNpas1Gpzip-sFlh2w">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1SEOKrJYS14HpqIaQT462kA">300d</a> / PWD: yenb</td>
     </tr>
     <tr  align="center">
       <td>Complete Library in Four Sections<br />四库全书<sup>*</sup></td>
