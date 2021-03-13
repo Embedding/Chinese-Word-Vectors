@@ -1,4 +1,9 @@
 # Chinese Word Vectors 中文词向量
+
+### Other language versions 其他语言版本
+- en [英文](README.md)
+- zh_CN [简体中文](README.zh_CN.md)
+
 This project provides 100+ Chinese Word Vectors (embeddings) trained with different **representations** (dense and sparse), **context features** (word, ngram, character, and more), and **corpora**. One can easily obtain pre-trained vectors with different properties and use them for downstream tasks. 
 
 Moreover, we provide a Chinese analogical reasoning dataset **CA8** and an evaluation toolkit for users to evaluate the quality of their word vectors.
