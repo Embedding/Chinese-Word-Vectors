@@ -54,7 +54,7 @@ Yuanyuan Qiu, Hongzheng Li, Shen Li, Yingdi Jiang, Renfen Hu, Lijiao Yang. <a hr
 
 ### 基本参数
 
-<table>
+<table align="center">
   <tr align="center">
     <td><b>窗口大小</b></td>
     <td><b>动态窗口</b></td>
@@ -274,7 +274,7 @@ Yuanyuan Qiu, Hongzheng Li, Shen Li, Yingdi Jiang, Renfen Hu, Lijiao Yang. <a hr
 
 所有的向量均采用SGNS在百度百科语料上训练而成。
 
-<table>
+<table align="center">
   <tr align="center">
     <td><b>特征</b></td>
     <td><b>共现信息</b></td>
@@ -373,7 +373,7 @@ Yuanyuan Qiu, Hongzheng Li, Shen Li, Yingdi Jiang, Renfen Hu, Lijiao Yang. <a hr
 ## 语料
 我们花费了大量精力来收集了来自多个领域的语料。所有的文本数据均移除了html和xml标记，仅保留了纯文本。之后采用了[HanLP(v_1.5.3)](https://github.com/hankcs/HanLP)对文本进行了分词。此外，我们将繁体中文用[Open Chinese Convert (OpenCC)](https://github.com/BYVoid/OpenCC)转换为了简体中文。更详细的语料信息如下所示：
 
-<table>
+<table align="center">
 	<tr align="center">
 		<td><b>语料</b></td>
 		<td><b>大小</b></td>

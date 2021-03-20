@@ -54,7 +54,7 @@ Besides dense word vectors (trained with SGNS), we also provide sparse vectors (
 
 ### Basic Settings
 
-<table>
+<table align="center">
   <tr align="center">
     <td><b>Window Size</b></td>
     <td><b>Dynamic Window</b></td>
@@ -274,7 +274,7 @@ In this part, one can obtain vectors of arbitrary linguistic units beyond word. 
 
 All vectors are trained by SGNS on Baidu Encyclopedia.
 
-<table>
+<table align="center">
   <tr align="center">
     <td><b>Feature</b></td>
     <td><b>Co-occurrence Type</b></td>
@@ -373,7 +373,7 @@ Besides word, ngram, and character, there are other features which have substant
 ## Corpus
 We made great efforts to collect corpus across various domains. All text data are preprocessed by removing html and xml tags. Only the plain text are kept and [HanLP(v_1.5.3)](https://github.com/hankcs/HanLP) is used for word segmentation. In addition, traditional Chinese characters are converted into simplified characters with [Open Chinese Convert (OpenCC)](https://github.com/BYVoid/OpenCC). The detailed corpora information is listed as follows:
 
-<table>
+<table align="center">
 	<tr align="center">
 		<td><b>Corpus</b></td>
 		<td><b>Size</b></td>
