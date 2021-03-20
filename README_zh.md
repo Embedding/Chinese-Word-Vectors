@@ -1,5 +1,6 @@
 # Chinese Word Vectors 中文词向量
 [For English](https://github.com/Embedding/Chinese-Word-Vectors/blob/master/README.md)
+
 本项目提供超过100种中文词向量，其中包括不同的表示方式（稠密和稀疏）、不同的上下文特征（词、N元组、字等等）、以及不同的训练语料。获取预训练词向量非常方便，下载后即可用于下游任务。
 
 此外，我们还提供了中文词类比任务数据集**CA8**和配套的评测工具，以便对中文词向量进行评估。
