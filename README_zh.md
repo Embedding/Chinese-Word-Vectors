@@ -1,11 +1,11 @@
 # Chinese Word Vectors 中文词向量
-[中文](https://github.com/Embedding/Chinese-Word-Vectors/blob/master/README_zh.md)
-This project provides 100+ Chinese Word Vectors (embeddings) trained with different **representations** (dense and sparse), **context features** (word, ngram, character, and more), and **corpora**. One can easily obtain pre-trained vectors with different properties and use them for downstream tasks. 
+[For English](https://github.com/Embedding/Chinese-Word-Vectors/blob/master/README.md)
+本项目提供超过100种中文词向量，其中包括不同的表示方式（稠密和稀疏）、不同的上下文特征（词、N元组、字等等）、以及不同的训练语料。获取预训练词向量非常方便，下载后即可用于下游任务。
 
-Moreover, we provide a Chinese analogical reasoning dataset **CA8** and an evaluation toolkit for users to evaluate the quality of their word vectors.
+此外，我们还提供了中文词类比任务数据集**CA8**和配套的评测工具，以便对中文词向量进行评估。
 
-## Reference
-Please cite the paper, if using these embeddings and CA8 dataset.
+## 参考文献
+如果使用了本项目的词向量和CA8数据集请进行如下引用：
 
 Shen Li, Zhe Zhao, Renfen Hu, Wensi Li, Tao Liu, Xiaoyong Du, <a href="http://aclweb.org/anthology/P18-2023"><em>Analogical Reasoning on Chinese Morphological and Semantic Relations</em></a>, ACL 2018.
 
@@ -29,7 +29,7 @@ Shen Li, Zhe Zhao, Renfen Hu, Wensi Li, Tao Liu, Xiaoyong Du, <a href="http://ac
 
 &nbsp;
 
-A detailed analysis of the relation between the intrinsic and extrinsic evaluations of Chinese word embeddings is shown in the paper:
+我们对中文词向量的内部和外部评估任务做了一个非常详尽的分析和对比，参见：
 
 Yuanyuan Qiu, Hongzheng Li, Shen Li, Yingdi Jiang, Renfen Hu, Lijiao Yang. <a href="http://www.cips-cl.org/static/anthology/CCL-2018/CCL-18-086.pdf"><em>Revisiting Correlations between Intrinsic and Extrinsic Evaluations of Word Embeddings</em></a>. Chinese Computational Linguistics and Natural Language Processing Based on Naturally Annotated Big Data. Springer, Cham, 2018. 209-221. (CCL & NLP-NABD 2018 Best Paper)
 
@@ -44,27 +44,27 @@ Yuanyuan Qiu, Hongzheng Li, Shen Li, Yingdi Jiang, Renfen Hu, Lijiao Yang. <a hr
 }
 ```
 
-## Format
-The pre-trained vector files are in text format. Each line contains a word and its vector. Each value is separated by space. The first line records the meta information: the first number indicates the number of words in the file and the second indicates the dimension size. 
+## 格式
+所有的预训练词向量文件均为文本格式。每一行都包括一个词和它对应的词向量。所有的值均用空格分开。每个文件的第一行记录了基本信息：第一个数值是文件中总词数，第二个数值是向量维度。
 
-Besides dense word vectors (trained with SGNS), we also provide sparse vectors (trained with PPMI). They are in the same format with liblinear, where the number before " : " denotes dimension index and the number after the " : " denotes the value. 
+除了稠密的词向量（用SGNS方式训练的），我们也提供了稀疏的词向量（用PPMI方式训练的）。稀疏的词向量格式同liblinear中的一样，以“位置:数值”的方式存储。
 
-## Pre-trained Chinese Word Vectors
+## 预训练中文词向量
 
-### Basic Settings
+### 基本参数
 
 <table>
   <tr align="center">
-    <td><b>Window Size</b></td>
-    <td><b>Dynamic Window</b></td>
-    <td><b>Sub-sampling</b></td>
-    <td><b>Low-Frequency Word</b></td>
-    <td><b>Iteration</b></td>
-    <td><b>Negative Sampling<sup>*</sup></b></td>
+    <td><b>窗口大小</b></td>
+    <td><b>动态窗口</b></td>
+    <td><b>子采样</b></td>
+    <td><b>低频词阈值</b></td>
+    <td><b>迭代次数</b></td>
+    <td><b>负采样<sup>*</sup></b></td>
   </tr>
   <tr align="center">
     <td>5</td>
-    <td>Yes</td>
+    <td>是</td>
     <td>1e-5</td>
     <td>10</td>
     <td>5</td>
@@ -72,25 +72,25 @@ Besides dense word vectors (trained with SGNS), we also provide sparse vectors (
   </tr>
 </table>
 
-<sup>\*</sup>Only for SGNS.
+<sup>\*</sup>仅适用于SGNS.
 
-### Various Domains
+### 不同领域
 
-Chinese Word Vectors trained with different representations, context features, and corpora.
+下列词向量基于不同的表示方式、不同的上下文特征以及不同领域的语料训练而成。
 
 <table align="center">
     <tr align="center">
         <td colspan="5"><b>Word2vec / Skip-Gram with Negative Sampling (SGNS)</b></td>
     </tr>
     <tr align="center">
-        <td rowspan="2">Corpus</td>
-        <td colspan="4">Context Features</td>
+        <td rowspan="2">语料</td>
+        <td colspan="4">上下文特征</td>
     </tr>
     <tr  align="center">
-      <td>Word</td>
-      <td>Word + Ngram</td>
-      <td>Word + Character</td>
-      <td>Word + Character + Ngram</td>
+      <td>词</td>
+      <td>词 + N元组</td>
+      <td>词 + 字</td>
+      <td>词 + 字 + N元组</td>
     </tr>
     <tr  align="center">
       <td>Baidu Encyclopedia 百度百科</td>
@@ -181,14 +181,14 @@ Chinese Word Vectors trained with different representations, context features, a
         <td colspan="5"><b>Positive Pointwise Mutual Information (PPMI)</b></td>
     </tr>
     <tr align="center">
-        <td rowspan="2">Corpus</td>
-        <td colspan="4">Context Features</td>
+        <td rowspan="2">语料</td>
+        <td colspan="4">上下文特征</td>
     </tr>
     <tr  align="center">
-      <td>Word</td>
-      <td>Word + Ngram</td>
-      <td>Word + Character</td>
-      <td>Word + Character + Ngram</td>
+      <td>词</td>
+      <td>词 + N元组</td>
+      <td>词 + 字</td>
+      <td>词 + 字 + N元组</td>
     </tr>
     <tr  align="center">
       <td>Baidu Encyclopedia 百度百科</td>
@@ -263,212 +263,212 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
 </table>
 
-<sup>\*</sup>Character embeddings are provided, since most of Hanzi are words in the archaic Chinese.
+<sup>\*</sup>由于古汉语中绝大部份词均为单字词，因此只需字向量。
 
-### Various Co-occurrence Information
+### 不同的上下文共现信息
 
-We release word vectors upon different co-occurrence statistics. Target and context vectors are often called input and output vectors in some related papers. 
+我们提供了基于不同共现信息训练而成的词向量。下述提到的中心向量和上下文向量在类似的论文中也被称为输入和输出向量。
 
-In this part, one can obtain vectors of arbitrary linguistic units beyond word. For example, character vectors is in the context vectors of word-character.
+这个部分中的向量不仅仅是词向量，还有其它的语言单位对应的向量。比如，在上下文是“词-字”的条件下，上下文向量会包含字向量。
 
-All vectors are trained by SGNS on Baidu Encyclopedia.
+所有的向量均采用SGNS在百度百科语料上训练而成。
 
 <table>
   <tr align="center">
-    <td><b>Feature</b></td>
-    <td><b>Co-occurrence Type</b></td>
-    <td><b>Target Word Vectors</b></td>
-    <td><b>Context Word Vectors</b></td>
+    <td><b>特征</b></td>
+    <td><b>共现信息</b></td>
+    <td><b>中心向量</b></td>
+    <td><b>上下文向量</b></td>
   </tr>
   
   <tr align="center">
-  	<td rowspan="1">Word</td>
-    <td>Word → Word</td>
+  	<td rowspan="1">词</td>
+    <td>词 → 词</td>
     <td><a href="https://pan.baidu.com/s/1Rn7LtTH0n7SHyHPfjRHbkg">300d</a></td>
  	  <td><a href="https://pan.baidu.com/s/18T6DRVmS_cZu5u64EbbESQ">300d</a></td>
   </tr>
 
   <tr align="center">
-    <td rowspan="3">Ngram</td>
-    <td>Word → Ngram (1-2)</td>
+    <td rowspan="3">N元组</td>
+    <td>词 → N元组 (1-2)</td>
     <td><a href="https://pan.baidu.com/s/1XEmP_0FkQwOjipCjI2OPEw">300d</a></td>
  	  <td><a href="https://pan.baidu.com/s/12asujjAaaqxNFYRNP-MThw">300d</a></td>
   </tr>
   <tr align="center">
-    <td>Word → Ngram (1-3)</td>
+    <td>词 → N元组 (1-3)</td>
     <td><a href="https://pan.baidu.com/s/1oUmbxsnSuXf2jU8Jxu7U8A">300d</a></td>
  	  <td><a href="https://pan.baidu.com/s/1ylg6FfFHa0kXbiVz8bIL8g">300d</a></td>
   </tr>
   <tr align="center">
-    <td>Ngram (1-2) → Ngram (1-2)</td>
+    <td>N元组 (1-2) → N元组 (1-2)</td>
     <td><a href="https://pan.baidu.com/s/1Za7DIGVhE6dMsTmxHb-izg">300d</a></td>
  	  <td><a href="https://pan.baidu.com/s/1oKI4Cs9eo7bg5mqfY1hdmg">300d</a></td>
   </tr>
   
   <tr align="center">
-    <td rowspan="3">Character</td>
-    <td>Word → Character (1)</td>
+    <td rowspan="3">字</td>
+    <td>词 → 字 (1)</td>
  	  <td><a href="https://pan.baidu.com/s/1c9yiosHKNIZwRlLzD_F1ig">300d</a></td>
     <td><a href="https://pan.baidu.com/s/1KGZ_x8r-lq-AuElLCSVzvQ">300d</a></td>
   </tr>
   <tr align="center">
-    <td>Word → Character (1-2)</td>
+    <td>词 → 字 (1-2)</td>
  	  <td><a href="https://pan.baidu.com/s/1eeCS7uD3e_qVN8rPwmXhAw">300d</a></td>
     <td><a href="https://pan.baidu.com/s/1q0ItLzbn5Tfb3LhepRCeEA">300d</a></td>
   </tr>
   <tr align="center">
-    <td>Word → Character (1-4)</td>
+    <td>词 → 字 (1-4)</td>
     <td><a href="https://pan.baidu.com/s/1WNWAnba56Rqjmx-FAN_7_g">300d</a></td>
  	  <td><a href="https://pan.baidu.com/s/1hJKTAz6PwS7wmz9wQgmYeg">300d</a></td>
   </tr>
   
   <tr align="center">
-  	<td rowspan="1">Radical</td>
-    <td>Radical</td>
+  	<td rowspan="1">偏旁部首</td>
+    <td>偏旁部首</td>
     <td>300d</td>
  	  <td>300d</td>
   </tr>
   
   <tr align="center">
-    <td rowspan="2">Position</td>
-    <td>Word → Word (left/right)</td>
+    <td rowspan="2">位置</td>
+    <td>词 → 词 (左/右)</td>
     <td><a href="https://pan.baidu.com/s/1JvjcrXFZPknT5H5Xw6KRVg">300d</a></td>
  	  <td><a href="https://pan.baidu.com/s/1m6K9CnIIS8FrQZdDuF6hPQ">300d</a></td>
   </tr>
   <tr align="center">
-    <td>Word → Word (distance)</td>
+    <td>词 → 词 (距离)</td>
     <td><a href="https://pan.baidu.com/s/1c29BDu4R1hyUX-sgvlHJnA">300d</a></td>
  	  <td><a href="https://pan.baidu.com/s/1sMZHIc-7eU6gRalHwtBHZw">300d</a></td>
   </tr>
   
   <tr align="center">
-    <td>Global</td>
-    <td>Word → Text</td>
+    <td>全局信息</td>
+    <td>词 → 文章</td>
     <td>300d</td>
  	  <td>300d</td>
   </tr>
     
   <tr align="center">
-    <td rowspan="2">Syntactic Feature</td>
-    <td>Word → POS</td>
+    <td rowspan="2">语法特征</td>
+    <td>词 → 词性</td>
     <td>300d</td>
  	  <td>300d</td>
   </tr>
   <tr align="center">
-    <td>Word → Dependency</td>
+    <td>词 → 依存关系</td>
     <td>300d</td>
  	  <td>300d</td>
   </tr>
 </table>
 
-## Representations
-Existing word representation methods fall into one of the two classes, **dense** and **sparse** represnetations. SGNS model (a model in word2vec toolkit) and PPMI model are respectively typical methods of these two classes. SGNS model trains low-dimensional real (dense) vectors through a shallow neural network. It is also called neural embedding method. PPMI model is a sparse bag-of-feature representation weighted by positive-pointwise-mutual-information (PPMI) weighting scheme.
+## 表示方式
+目前有两种词向量的表示方式：**稠密**和**稀疏**的表示方式。SGNS模型（word2vec中提出的一种模型）和PPMI模型分别是二者的代表。SGNS是通过浅层神经网络训练而成的一种低维实向量来表示词语。它通常也被称之为神经词嵌入方法。PPMI模型是一种基于正值逐点互信息并且以稀疏方式表示的特征汇总模型。
 
-## Context Features
-Three context features: **word**, **ngram**, and **character** are commonly used in the word embedding literature. Most word representation methods essentially exploit word-word co-occurrence statistics, namely using word as context feature **(word feature)**. Inspired by language modeling problem, we introduce ngram feature into the context. Both word-word and word-ngram co-occurrence statistics are used for training **(ngram feature)**. For Chinese, characters (Hanzi) often convey strong semantics. To this end, we consider using word-word and word-character co-occurrence statistics for learning word vectors. The length of character-level ngrams ranges from 1 to 4 **(character feature)**.
+## 上下文特征
+在词向量领域通常有三种主要的上下文特征：**词**、**N元组**、**字**。大部分词表示方式本质上都是在利用词和词的共现统计信息，换句话说就是把词来当作上下文特征，即上文**词特征**中的向量。受到语言模型的启发，我们将N元组信息也引入了上下文特征中。不只是词和词的共现信息，词和N元组的共现信息也被用在了上文**N元组特征**向量的训练中。对于中文来说，汉字承载了较强的含义，因此我们利用了词和词的共现信息以及词和字的共现信息来训练了一些向量。在上文**字特征**中的向量包括了长度1至4的字级别N元组。
 
-Besides word, ngram, and character, there are other features which have substantial influence on properties of word vectors. For example, using entire text as context feature could introduce more topic information into word vectors; using dependency parse as context feature could add syntactic constraint to word vectors. 17 co-occurrence types are considered in this project.
+除了词、N元组和字以外。还有一些特征对词向量的性质有重要的影响。比如，把整篇文本作为特征引入训练中会使得词向量受到文章主题的影响；用依存分析的结果作为上下文特征来训练词向量会让词向量受到语法的影响。本项目共涉及17种不同的共现信息。
 
-## Corpus
-We made great efforts to collect corpus across various domains. All text data are preprocessed by removing html and xml tags. Only the plain text are kept and [HanLP(v_1.5.3)](https://github.com/hankcs/HanLP) is used for word segmentation. In addition, traditional Chinese characters are converted into simplified characters with [Open Chinese Convert (OpenCC)](https://github.com/BYVoid/OpenCC). The detailed corpora information is listed as follows:
+## 语料
+我们花费了大量精力来收集了来自多个领域的语料。所有的文本数据均移除了html和xml标记，仅保留了纯文本。之后采用了[HanLP(v_1.5.3)](https://github.com/hankcs/HanLP)对文本进行了分词。此外，我们将繁体中文用[Open Chinese Convert (OpenCC)](https://github.com/BYVoid/OpenCC)转换为了简体中文。更详细的语料信息如下所示：
 
 <table>
 	<tr align="center">
-		<td><b>Corpus</b></td>
-		<td><b>Size</b></td>
-		<td><b>Tokens</b></td>
-		<td><b>Vocabulary Size</b></td>
-		<td><b>Description</b></td>
+		<td><b>语料</b></td>
+		<td><b>大小</b></td>
+		<td><b>词数量</b></td>
+		<td><b>词汇量</b></td>
+		<td><b>详情</b></td>
 	</tr>
 	<tr align="center">
 		<td>Baidu Encyclopedia<br />百度百科</td>
 		<td>4.1G</td>
 		<td>745M</td>
 		<td>5422K</td>
-		<td>Chinese Encyclopedia data from<br />https://baike.baidu.com/</td>
+		<td>中文百科<br />https://baike.baidu.com/</td>
 	</tr>
 	<tr align="center">
 		<td>Wikipedia_zh<br />中文维基百科</td>
 		<td>1.3G</td>
 		<td>223M</td>
 		<td>2129K</td>
-		<td>Chinese Wikipedia data from<br />https://dumps.wikimedia.org/</td>
+		<td>中文维基百科<br />https://dumps.wikimedia.org/</td>
 	</tr>
 	<tr align="center">
 		<td>People's Daily News<br />人民日报</td>
 		<td>3.9G</td>
 		<td>668M</td>
 		<td>1664K</td>
-		<td>News data from People's Daily(1946-2017)<br />http://data.people.com.cn/</td>
+		<td>人民日报新闻数据(1946-2017)<br />http://data.people.com.cn/</td>
 	</tr>
 	<tr align="center">
 		<td>Sogou News<br />搜狗新闻</td>
 		<td>3.7G</td>
 		<td>649M</td>
 		<td>1226K</td>
-		<td>News data provided by Sogou labs<br />http://www.sogou.com/labs/</td>
+		<td>Sogou labs的新闻数据<br />http://www.sogou.com/labs/</td>
 	</tr>
   <tr align="center">
     <td>Financial News<br />金融新闻</td>
     <td>6.2G</td>
     <td>1055M</td>
     <td>2785K</td>
-    <td>Financial news collected from multiple news websites</td>
+    <td>从多个网站收集到的金融新闻</td>
   </tr>
 	<tr align="center">
 		<td>Zhihu_QA<br />知乎问答</td>
 		<td>2.1G</td>
 		<td>384M</td>
 		<td>1117K</td>
-		<td>Chinese QA data from<br />https://www.zhihu.com/</td>
+		<td>中文问答数据<br />https://www.zhihu.com/</td>
 	</tr>
 	<tr align="center">
 		<td>Weibo<br />微博</td>
 		<td>0.73G</td>
 		<td>136M</td>
 		<td>850K</td>
-		<td>Chinese microblog data provided by NLPIR Lab<br />http://www.nlpir.org/wordpress/download/weibo.7z</td>
+		<td>NLPIR Lab提供的微博数据<br />http://www.nlpir.org/wordpress/download/weibo.7z</td>
 	</tr>
 	<tr align="center">
 		<td>Literature<br />文学作品</td>
 		<td>0.93G</td>
 		<td>177M</td>
 		<td>702K</td>
-		<td>8599 modern Chinese literature works</td>
+		<td>8599篇现代文学作品</td>
 	</tr>
 	<tr align="center">
 		<td>Mixed-large<br />综合</td>
 		<td>22.6G</td>
     <td>4037M</td>
     <td>10653K</td>
-		<td>We build the large corpus by merging the above corpora.</td>
+		<td>上述所有数据的汇总</td>
 	</tr>
   <tr align="center">
     <td>Complete Library in Four Sections<br />四库全书</td>
     <td>1.5G</td>
     <td>714M</td>
     <td>21.8K</td>
-    <td>The largest collection of texts in pre-modern China.</td>
+    <td>目前最大的古代文献汇总</td>
   </tr>
 </table>
 
-All words are concerned, including low frequency words.
+上述统计结果中，所有词都被计算在内，包括低频词。
 
-## Toolkits
-All word vectors are trained by [ngram2vec](https://github.com/zhezhaoa/ngram2vec/) toolkit. Ngram2vec toolkit is a superset of [word2vec](https://github.com/svn2github/word2vec) and [fasttext](https://github.com/facebookresearch/fastText) toolkit, where arbitrary context features and models are supported.
+## 训练工具
+所有词向量均采用[ngram2vec](https://github.com/zhezhaoa/ngram2vec/)训练而成。Ngram2vec是[word2vec](https://github.com/svn2github/word2vec)和[fasttext](https://github.com/facebookresearch/fastText)的超集。它可以兼容各种上下文特征并且支持多种模型。
 
-## Chinese Word Analogy Benchmarks
-The quality of word vectors is often evaluated by analogy question tasks. In this project, two benchmarks are exploited for evaluation. The first is CA-translated, where most analogy questions are directly translated from English benchmark. Although CA-translated has been widely used in many Chinese word embedding papers, it only contains questions of three semantic questions and covers 134 Chinese words. In contrast, CA8 is specifically designed for Chinese language. It contains 17813 analogy questions and covers comprehensive morphological and semantic relations. The CA-translated, CA8, and their detailed descriptions are provided in [**testsets**](https://github.com/Embedding/Chinese-Word-Vectors/tree/master/testsets) folder.
+## 中文词类比评测
+通常人们利用词类比任务来评测词向量的好坏。本项目中，包含有两个词类比任务。其一是CA-translated，即由英文词类比任务翻译得到的中文词类比任务集。虽然CA-translated被广泛应用于中文词向量相关的论文中，但是它仅仅只有语义相关任务没有语法相关的任务，并且其中词汇量仅有134。因此，我们提供了另一个中文词类比任务集CA8。CA8是特别为中文而设计的词类比任务集。它包括了17813个词类比问题，并且同时涵盖了语法和语义任务。对上述两个数据集更详细的介绍可以参见：[**testsets**](https://github.com/Embedding/Chinese-Word-Vectors/tree/master/testsets)文件夹。
 
-## Evaluation Toolkit
-We present an evaluation toolkit in [**evaluation**](https://github.com/Embedding/Chinese-Word-Vectors/tree/master/evaluation) folder. 
+## 评测工具
+我们提供了配套的评测工具，详见[**evaluation**](https://github.com/Embedding/Chinese-Word-Vectors/tree/master/evaluation)文件夹。
 
-Run the following codes to evaluate dense vectors.
+评测稠密的向量，可以运行：
 ```
 $ python ana_eval_dense.py -v <vector.txt> -a CA8/morphological.txt
 $ python ana_eval_dense.py -v <vector.txt> -a CA8/semantic.txt
 ```
-Run the following codes to evaluate sparse vectors.
+评测稀疏的向量，可以运行：
 ```
 $ python ana_eval_sparse.py -v <vector.txt> -a CA8/morphological.txt
 $ python ana_eval_sparse.py -v <vector.txt> -a CA8/semantic.txt
