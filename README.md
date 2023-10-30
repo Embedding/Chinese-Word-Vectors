@@ -102,10 +102,10 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Wikipedia_zh 中文维基百科</td>
-      <td><a href="https://pan.baidu.com/s/1AmXYWVgkxrG4GokevPtNgA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1ZKePwxwsDdzNrfkc6WKdGQ">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1ZBVVD4mUSUuXOxlZ3V71ZA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/19wQrclyynOnco3JBvnI5pA">300d</td>
+      <td><a href="https://pan.baidu.com/s/11hSZJN-NWBEvryIED6Donw?pwd=qfgv">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1RWcPWQEiCrwna7xmhI8ARg?pwd=jp7e">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1DKvgg0RgtqwyDPs1IbS0TQ?pwd=s22w">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1OTfYo_sQamCYwJLdp3KHnw?pwd=k6p9">300d</td>
     </tr>
     <tr  align="center">
       <td>People's Daily News 人民日报</td>
@@ -123,10 +123,10 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Financial News 金融新闻</td>
-      <td><a href="https://pan.baidu.com/s/1EhtsbDa3ekzZPODWNLHcXA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1FcPHv7S4vUgnL7WeWf4_PA">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/13CAxY5ffRFuOcHZu8VmArw">300d</a></td>
-      <td><a href="https://pan.baidu.com/s/1sqvrUtGBAZ7YWEsGz41DRQ">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1c8wmsqdrfUbQQ6j2Dx5NwQ?pwd=nakr">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1EXVpN8-vMr1-f2l4kZICLg?pwd=ki7t">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/1EXVpN8-vMr1-f2l4kZICLg?pwd=ki7t">300d</a></td>
+      <td><a href="https://pan.baidu.com/s/19JWtZL6U8P-XfE5LsTlftg?pwd=gbnb">300d</a></td>
     </tr>
     <tr  align="center">
       <td>Zhihu_QA 知乎问答 </td>
@@ -200,10 +200,10 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Wikipedia_zh 中文维基百科</td>
-      <td><a href="https://pan.baidu.com/s/1MGXRrc54nITPzQ7sfEUjMA">Sparse</a></td>
-      <td><a href="https://pan.baidu.com/s/1mtxZna8UJ7xBIxhBFntumQ">Sparse</a></td>
-      <td><a href="https://pan.baidu.com/s/1dDImpAx41V73Byl2julOGA">Sparse</a></td>
-      <td><a href="https://pan.baidu.com/s/1bsBQHXFpxMHGBexYof1_rw">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/172vD1NljxnbeubgXkuja4Q?pwd=k2hr">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1taIMttirPOw9Df51epIWBg?pwd=rmfh">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1-l9pdeUOwVzRVT4utvszfQ?pwd=ameb">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1VYI5GrKWR16gHvah38I3SQ?pwd=gzj8">Sparse</a></td>
     </tr>
     <tr  align="center">
       <td>People's Daily News 人民日报</td>
@@ -221,10 +221,10 @@ Chinese Word Vectors trained with different representations, context features, a
     </tr>
     <tr  align="center">
       <td>Financial News 金融新闻</td>
-      <td><a href="https://pan.baidu.com/s/10wtgdmrTsTrjpSDvI0KzOw">Sparse</a></td>
-      <td><a href="https://pan.baidu.com/s/1b6zjvhOIqTdACSSbriisVw">Sparse</a></td>
-      <td><a href="https://pan.baidu.com/s/1w24vCfgqcoJvPxsB5VrRvw">Sparse</a></td>
-      <td><a href="https://pan.baidu.com/s/1b9BPiDRhiEZ-6ybTcovrqQ">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1yyJ7NZl-GabDJLbP-eYdCQ?pwd=9efk">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/17ZLOJpLXSQFxN0SZTITdIw?pwd=sjzy">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1rRGLUkA01kGceFDBOG9wlA?pwd=yve5">Sparse</a></td>
+      <td><a href="https://pan.baidu.com/s/1X-150CjeUPdQBq--Gr7w3A?pwd=qqc7">Sparse</a></td>
     </tr>
     <tr  align="center">
       <td>Zhihu_QA 知乎问答 </td>
